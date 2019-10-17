@@ -9752,7 +9752,7 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 <parts>
 <part name="IC1" library="YM" deviceset="YM3812" device="" value="YM3812"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device="">
-<attribute name="YM3812-0" value="DRAWING_NAME"/>
+<attribute name="PROJECT_NAME" value="DRAWING_NAME"/>
 </part>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device="">
 <attribute name="PROJECT_NAME" value="DRAWING_NAME"/>
@@ -10266,7 +10266,7 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 <attribute name="DRAWING_NAME" x="217.17" y="15.24" size="2.54" layer="94"/>
 <attribute name="LAST_DATE_TIME" x="217.17" y="10.16" size="2.286" layer="94"/>
 <attribute name="SHEET" x="230.505" y="5.08" size="2.54" layer="94"/>
-<attribute name="YM3812-0" x="0" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="PROJECT_NAME" x="0" y="0" size="1.778" layer="96" display="both"/>
 </instance>
 <instance part="IC6" gate="G$1" x="133.35" y="115.57" smashed="yes">
 <attribute name="NAME" x="128.905" y="120.015" size="1.778" layer="95"/>

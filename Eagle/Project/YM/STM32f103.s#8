@@ -9752,7 +9752,7 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 <parts>
 <part name="IC1" library="YM" deviceset="YM3812" device="" value="YM3812"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device="">
-<attribute name="YM3812-0" value=""/>
+<attribute name="YM3812-0" value="DRAWING_NAME"/>
 </part>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="IC2" library="stm32" deviceset="STM32F10XCXT6" device=""/>

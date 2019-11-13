@@ -8681,8 +8681,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </bus>
 <bus name="VOL-BUS:VOL1,VOL2,VOL3,VOL4,VOL-TOT">
 <segment>
-<wire x1="148.59" y1="118.11" x2="148.59" y2="107.95" width="0.762" layer="92"/>
-<label x="149.86" y="109.22" size="1.778" layer="95"/>
+<wire x1="152.4" y1="118.11" x2="152.4" y2="107.95" width="0.762" layer="92"/>
+<label x="153.67" y="109.22" size="1.778" layer="95"/>
 </segment>
 </bus>
 <bus name="IO-BUS:IO1,IO2,IO3,IO4,IO5,IO6,IO7,IO8,IO9,IO10,IO11">
@@ -8925,8 +8925,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="201.93" y1="149.86" x2="182.88" y2="149.86" width="0.1524" layer="91"/>
 <label x="186.69" y="149.86" size="1.778" layer="95"/>
 <wire x1="182.88" y1="149.86" x2="182.88" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="114.3" x2="149.86" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="114.3" x2="148.59" y2="115.57" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="114.3" x2="153.67" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="153.67" y1="114.3" x2="152.4" y2="115.57" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VOL3" class="0">
@@ -8935,16 +8935,16 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="201.93" y1="147.32" x2="185.42" y2="147.32" width="0.1524" layer="91"/>
 <label x="186.69" y="147.32" size="1.778" layer="95"/>
 <wire x1="185.42" y1="147.32" x2="185.42" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="111.76" x2="149.86" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="111.76" x2="148.59" y2="113.03" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="111.76" x2="153.67" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="153.67" y1="111.76" x2="152.4" y2="113.03" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VOL4" class="0">
 <segment>
 <pinref part="U1" gate="PORTB_L" pin="PB0"/>
-<wire x1="133.35" y1="109.22" x2="147.32" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="133.35" y1="109.22" x2="151.13" y2="109.22" width="0.1524" layer="91"/>
 <label x="135.89" y="109.22" size="1.778" layer="95"/>
-<wire x1="147.32" y1="109.22" x2="148.59" y2="110.49" width="0.1524" layer="91"/>
+<wire x1="151.13" y1="109.22" x2="152.4" y2="110.49" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EXP-RST" class="0">
@@ -8966,9 +8966,9 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <net name="VOL-TOT" class="0">
 <segment>
 <pinref part="U1" gate="PORTB_L" pin="PB1"/>
-<wire x1="133.35" y1="106.68" x2="147.32" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="133.35" y1="106.68" x2="151.13" y2="106.68" width="0.1524" layer="91"/>
 <label x="135.89" y="106.68" size="1.778" layer="95"/>
-<wire x1="147.32" y1="106.68" x2="148.59" y2="107.95" width="0.1524" layer="91"/>
+<wire x1="151.13" y1="106.68" x2="152.4" y2="107.95" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EXP-SPI-A0" class="0">
@@ -9117,9 +9117,9 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </net>
 <net name="VOL1" class="0">
 <segment>
-<wire x1="133.35" y1="116.84" x2="147.32" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="133.35" y1="116.84" x2="151.13" y2="116.84" width="0.1524" layer="91"/>
 <label x="135.89" y="116.84" size="1.778" layer="95"/>
-<wire x1="147.32" y1="116.84" x2="148.59" y2="118.11" width="0.1524" layer="91"/>
+<wire x1="151.13" y1="116.84" x2="152.4" y2="118.11" width="0.1524" layer="91"/>
 <pinref part="U1" gate="PORTA_L" pin="PA7"/>
 </segment>
 </net>

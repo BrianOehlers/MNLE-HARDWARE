@@ -8669,20 +8669,20 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <busses>
 <bus name="YM-BUS:YM-A0,YM-CS1,YM-CS2,YM-CS3,YM-CS4,YM-D0,YM-D1,YM-D2,YM-D3,YM-D4,YM-D5,YM-D6,YM-D7,YM-RST,YM-WR">
 <segment>
-<wire x1="176.53" y1="118.11" x2="176.53" y2="85.09" width="0.762" layer="92"/>
+<wire x1="176.53" y1="120.65" x2="176.53" y2="85.09" width="0.762" layer="92"/>
 <label x="166.37" y="107.95" size="1.778" layer="95"/>
 </segment>
 </bus>
 <bus name="EXP-BUS:EXP1-INTA,EXP1-INTB,EXP2-INTA,EXP2-INTB,EXP3-INTA,EXP3-INTB,EXP-INT,EXP-RST,EXP-SPI-A0,EXP-SPI-A1,EXP-SPI-CLK,EXP-SPI-MISO,EXP-SPI-MOSI,EXP-SPI-NSS">
 <segment>
-<wire x1="184.15" y1="151.13" x2="184.15" y2="107.95" width="0.762" layer="92"/>
-<label x="172.72" y="130.81" size="1.778" layer="95"/>
+<wire x1="180.34" y1="151.13" x2="180.34" y2="107.95" width="0.762" layer="92"/>
+<label x="168.91" y="130.81" size="1.778" layer="95"/>
 </segment>
 </bus>
 <bus name="VOL-BUS:VOL1,VOL2,VOL3,VOL4,VOL-TOT">
 <segment>
-<wire x1="151.13" y1="118.11" x2="151.13" y2="107.95" width="0.762" layer="92"/>
-<label x="152.4" y="113.03" size="1.778" layer="95"/>
+<wire x1="148.59" y1="118.11" x2="148.59" y2="107.95" width="0.762" layer="92"/>
+<label x="149.86" y="109.22" size="1.778" layer="95"/>
 </segment>
 </bus>
 <bus name="IO-BUS:IO1,IO2,IO3,IO4,IO5,IO6,IO7,IO8,IO9,IO10,IO11">
@@ -8922,109 +8922,115 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <net name="VOL2" class="0">
 <segment>
 <pinref part="U1" gate="PORTC_L" pin="PC4"/>
-<wire x1="201.93" y1="149.86" x2="186.69" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="201.93" y1="149.86" x2="182.88" y2="149.86" width="0.1524" layer="91"/>
 <label x="186.69" y="149.86" size="1.778" layer="95"/>
+<wire x1="182.88" y1="149.86" x2="182.88" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="114.3" x2="149.86" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="114.3" x2="148.59" y2="115.57" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VOL3" class="0">
 <segment>
 <pinref part="U1" gate="PORTC_L" pin="PC5"/>
-<wire x1="201.93" y1="147.32" x2="186.69" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="201.93" y1="147.32" x2="185.42" y2="147.32" width="0.1524" layer="91"/>
 <label x="186.69" y="147.32" size="1.778" layer="95"/>
+<wire x1="185.42" y1="147.32" x2="185.42" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="111.76" x2="149.86" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="111.76" x2="148.59" y2="113.03" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VOL4" class="0">
 <segment>
 <pinref part="U1" gate="PORTB_L" pin="PB0"/>
-<wire x1="133.35" y1="109.22" x2="149.86" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="133.35" y1="109.22" x2="147.32" y2="109.22" width="0.1524" layer="91"/>
 <label x="135.89" y="109.22" size="1.778" layer="95"/>
-<wire x1="149.86" y1="109.22" x2="151.13" y2="110.49" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="109.22" x2="148.59" y2="110.49" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EXP-RST" class="0">
 <segment>
 <pinref part="U1" gate="PORTC_H" pin="PC8"/>
-<wire x1="201.93" y1="109.22" x2="185.42" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="109.22" x2="184.15" y2="110.49" width="0.1524" layer="91"/>
+<wire x1="201.93" y1="109.22" x2="181.61" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="181.61" y1="109.22" x2="180.34" y2="110.49" width="0.1524" layer="91"/>
 <label x="186.69" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EXP-SPI-A1" class="0">
 <segment>
 <pinref part="U1" gate="PORTC_L" pin="PC7"/>
-<wire x1="201.93" y1="142.24" x2="185.42" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="142.24" x2="184.15" y2="143.51" width="0.1524" layer="91"/>
+<wire x1="201.93" y1="142.24" x2="181.61" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="181.61" y1="142.24" x2="180.34" y2="143.51" width="0.1524" layer="91"/>
 <label x="186.69" y="142.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VOL-TOT" class="0">
 <segment>
 <pinref part="U1" gate="PORTB_L" pin="PB1"/>
-<wire x1="133.35" y1="106.68" x2="149.86" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="133.35" y1="106.68" x2="147.32" y2="106.68" width="0.1524" layer="91"/>
 <label x="135.89" y="106.68" size="1.778" layer="95"/>
-<wire x1="149.86" y1="106.68" x2="151.13" y2="107.95" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="106.68" x2="148.59" y2="107.95" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EXP-SPI-A0" class="0">
 <segment>
 <pinref part="U1" gate="PORTC_L" pin="PC6"/>
-<wire x1="201.93" y1="144.78" x2="185.42" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="144.78" x2="184.15" y2="146.05" width="0.1524" layer="91"/>
+<wire x1="201.93" y1="144.78" x2="181.61" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="181.61" y1="144.78" x2="180.34" y2="146.05" width="0.1524" layer="91"/>
 <label x="186.69" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EXP1-INTB" class="0">
 <segment>
 <pinref part="U1" gate="PORTA_H" pin="PA8"/>
-<wire x1="201.93" y1="134.62" x2="185.42" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="134.62" x2="184.15" y2="135.89" width="0.1524" layer="91"/>
+<wire x1="201.93" y1="134.62" x2="181.61" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="181.61" y1="134.62" x2="180.34" y2="135.89" width="0.1524" layer="91"/>
 <label x="186.69" y="134.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EXP2-INTA" class="0">
 <segment>
 <pinref part="U1" gate="PORTA_H" pin="PA9"/>
-<wire x1="201.93" y1="132.08" x2="185.42" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="132.08" x2="184.15" y2="133.35" width="0.1524" layer="91"/>
+<wire x1="201.93" y1="132.08" x2="181.61" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="181.61" y1="132.08" x2="180.34" y2="133.35" width="0.1524" layer="91"/>
 <label x="186.69" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EXP2-INTB" class="0">
 <segment>
 <pinref part="U1" gate="PORTA_H" pin="PA10"/>
-<wire x1="201.93" y1="129.54" x2="185.42" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="129.54" x2="184.15" y2="130.81" width="0.1524" layer="91"/>
+<wire x1="201.93" y1="129.54" x2="181.61" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="181.61" y1="129.54" x2="180.34" y2="130.81" width="0.1524" layer="91"/>
 <label x="186.69" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EXP3-INTA" class="0">
 <segment>
 <pinref part="U1" gate="PORTA_H" pin="PA11"/>
-<wire x1="201.93" y1="127" x2="185.42" y2="127" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="127" x2="184.15" y2="128.27" width="0.1524" layer="91"/>
+<wire x1="201.93" y1="127" x2="181.61" y2="127" width="0.1524" layer="91"/>
+<wire x1="181.61" y1="127" x2="180.34" y2="128.27" width="0.1524" layer="91"/>
 <label x="186.69" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EXP3-INTB" class="0">
 <segment>
 <pinref part="U1" gate="PORTA_H" pin="PA12"/>
-<wire x1="201.93" y1="124.46" x2="185.42" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="124.46" x2="184.15" y2="125.73" width="0.1524" layer="91"/>
+<wire x1="201.93" y1="124.46" x2="181.61" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="181.61" y1="124.46" x2="180.34" y2="125.73" width="0.1524" layer="91"/>
 <label x="186.69" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EXP1-INTA" class="0">
 <segment>
 <pinref part="U1" gate="PORTC_H" pin="PC9"/>
-<wire x1="201.93" y1="106.68" x2="185.42" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="106.68" x2="184.15" y2="107.95" width="0.1524" layer="91"/>
+<wire x1="201.93" y1="106.68" x2="181.61" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="181.61" y1="106.68" x2="180.34" y2="107.95" width="0.1524" layer="91"/>
 <label x="186.69" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EXP-SPI-MOSI" class="0">
 <segment>
-<wire x1="133.35" y1="142.24" x2="182.88" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="142.24" x2="184.15" y2="143.51" width="0.1524" layer="91"/>
+<wire x1="133.35" y1="142.24" x2="179.07" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="179.07" y1="142.24" x2="180.34" y2="143.51" width="0.1524" layer="91"/>
 <pinref part="U1" gate="PORTB_H" pin="PB15"/>
 <label x="134.62" y="142.24" size="1.778" layer="95"/>
 </segment>
@@ -9032,24 +9038,24 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <net name="EXP-SPI-MISO" class="0">
 <segment>
 <pinref part="U1" gate="PORTB_H" pin="PB14"/>
-<wire x1="133.35" y1="144.78" x2="182.88" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="144.78" x2="184.15" y2="146.05" width="0.1524" layer="91"/>
+<wire x1="133.35" y1="144.78" x2="179.07" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="179.07" y1="144.78" x2="180.34" y2="146.05" width="0.1524" layer="91"/>
 <label x="134.62" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EXP-SPI-CLK" class="0">
 <segment>
 <pinref part="U1" gate="PORTB_H" pin="PB13"/>
-<wire x1="133.35" y1="147.32" x2="182.88" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="147.32" x2="184.15" y2="148.59" width="0.1524" layer="91"/>
+<wire x1="133.35" y1="147.32" x2="179.07" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="179.07" y1="147.32" x2="180.34" y2="148.59" width="0.1524" layer="91"/>
 <label x="134.62" y="147.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EXP-SPI-NSS" class="0">
 <segment>
 <pinref part="U1" gate="PORTB_H" pin="PB12"/>
-<wire x1="133.35" y1="149.86" x2="182.88" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="149.86" x2="184.15" y2="151.13" width="0.1524" layer="91"/>
+<wire x1="133.35" y1="149.86" x2="179.07" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="179.07" y1="149.86" x2="180.34" y2="151.13" width="0.1524" layer="91"/>
 <label x="134.62" y="149.86" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -9111,9 +9117,9 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </net>
 <net name="VOL1" class="0">
 <segment>
-<wire x1="133.35" y1="116.84" x2="149.86" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="133.35" y1="116.84" x2="147.32" y2="116.84" width="0.1524" layer="91"/>
 <label x="135.89" y="116.84" size="1.778" layer="95"/>
-<wire x1="149.86" y1="116.84" x2="151.13" y2="118.11" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="116.84" x2="148.59" y2="118.11" width="0.1524" layer="91"/>
 <pinref part="U1" gate="PORTA_L" pin="PA7"/>
 </segment>
 </net>
@@ -9160,15 +9166,21 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <net name="YM-D6" class="0">
 <segment>
 <pinref part="U1" gate="PORTB_H" pin="PB8"/>
-<wire x1="133.35" y1="160.02" x2="152.4" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="133.35" y1="160.02" x2="158.75" y2="160.02" width="0.1524" layer="91"/>
 <label x="134.62" y="160.02" size="1.778" layer="95"/>
+<wire x1="158.75" y1="160.02" x2="158.75" y2="118.11" width="0.1524" layer="91"/>
+<wire x1="158.75" y1="118.11" x2="175.26" y2="118.11" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="118.11" x2="176.53" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="YM-D7" class="0">
 <segment>
 <pinref part="U1" gate="PORTB_H" pin="PB9"/>
-<wire x1="133.35" y1="157.48" x2="152.4" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="133.35" y1="157.48" x2="156.21" y2="157.48" width="0.1524" layer="91"/>
 <label x="134.62" y="157.48" size="1.778" layer="95"/>
+<wire x1="156.21" y1="157.48" x2="156.21" y2="115.57" width="0.1524" layer="91"/>
+<wire x1="156.21" y1="115.57" x2="175.26" y2="115.57" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="115.57" x2="176.53" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USART-TX" class="0">

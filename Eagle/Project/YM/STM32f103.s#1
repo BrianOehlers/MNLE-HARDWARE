@@ -13675,12 +13675,12 @@ Klok voor YM3812</text>
 <attribute name="VALUE" x="102.87" y="86.106" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="R3" gate="G$1" x="83.82" y="107.95" smashed="yes">
-<attribute name="NAME" x="80.01" y="109.4486" size="1.778" layer="95"/>
-<attribute name="VALUE" x="80.01" y="104.648" size="1.778" layer="96"/>
+<attribute name="NAME" x="80.01" y="111.9886" size="1.778" layer="95"/>
+<attribute name="VALUE" x="80.01" y="109.728" size="1.778" layer="96"/>
 </instance>
 <instance part="R4" gate="G$1" x="83.82" y="100.33" smashed="yes">
-<attribute name="NAME" x="80.01" y="101.8286" size="1.778" layer="95"/>
-<attribute name="VALUE" x="80.01" y="97.028" size="1.778" layer="96"/>
+<attribute name="NAME" x="80.01" y="96.7486" size="1.778" layer="95"/>
+<attribute name="VALUE" x="80.01" y="94.488" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -13754,6 +13754,13 @@ Klok voor YM3812</text>
 <pinref part="R4" gate="G$1" pin="1"/>
 </segment>
 </net>
+<net name="YM-CLK-I" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="~O2"/>
+<wire x1="111.76" y1="95.25" x2="91.44" y2="95.25" width="0.1524" layer="91"/>
+<label x="91.44" y="95.25" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -13792,8 +13799,8 @@ MIDI aanlsuiting via optocoupler.</text>
 <attribute name="VALUE" x="60.96" y="60.706" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="R1" gate="G$1" x="74.93" y="107.95" smashed="yes">
-<attribute name="NAME" x="71.12" y="109.4486" size="1.778" layer="95"/>
-<attribute name="VALUE" x="71.12" y="104.648" size="1.778" layer="96"/>
+<attribute name="NAME" x="71.12" y="111.9886" size="1.778" layer="95"/>
+<attribute name="VALUE" x="71.12" y="109.728" size="1.778" layer="96"/>
 </instance>
 <instance part="R5" gate="G$1" x="176.53" y="100.33" smashed="yes" rot="R270">
 <attribute name="NAME" x="177.8" y="100.5586" size="1.778" layer="95"/>

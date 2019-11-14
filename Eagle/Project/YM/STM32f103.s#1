@@ -11379,8 +11379,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="DIN5" device="" package3d_urn="urn:adsk.eagle:package:38294/1"/>
 <part name="D2" library="BAT20JFILM" deviceset="BAT20JFILM" device=""/>
 <part name="Q1" library="6N136SDM" deviceset="6N136SDM" device=""/>
-<part name="C36" library="Clean-Kong" deviceset="C-EU" device="C0603"/>
-<part name="C37" library="Clean-Kong" deviceset="C-EU" device="C0603" value="1p5"/>
+<part name="C36" library="Clean-Kong" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C37" library="Clean-Kong" deviceset="C-EU" device="C0603" value="1p5F"/>
 <part name="FRAME7" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="C38" library="Clean-Kong" deviceset="C-EU" device="C0603" value="4.7nF"/>
 <part name="U2" library="74AC04MTC" deviceset="74AC04MTC" device=""/>
@@ -11391,6 +11391,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R4" library="+HU-Lib" deviceset="1K" device="" value="470R"/>
 <part name="R1" library="+HU-Lib" deviceset="1K" device="" value="91R"/>
 <part name="R5" library="+HU-Lib" deviceset="1K" device="" value="4k7"/>
+<part name="C39" library="Clean-Kong" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C40" library="Clean-Kong" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="GND40" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="GND41" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="GND42" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13660,8 +13665,8 @@ Klok voor YM3812</text>
 <attribute name="SHEET" x="230.505" y="5.08" size="2.54" layer="94"/>
 </instance>
 <instance part="C38" gate="G$1" x="63.5" y="102.87" smashed="yes" rot="R180">
-<attribute name="NAME" x="66.294" y="101.981" size="1.778" layer="95"/>
-<attribute name="VALUE" x="66.294" y="104.521" size="1.778" layer="96"/>
+<attribute name="NAME" x="66.294" y="104.521" size="1.778" layer="95"/>
+<attribute name="VALUE" x="66.294" y="101.981" size="1.778" layer="96"/>
 </instance>
 <instance part="U2" gate="G$1" x="111.76" y="107.95" smashed="yes">
 <attribute name="NAME" x="133.35" y="115.57" size="1.778" layer="95" align="center-left"/>
@@ -13682,6 +13687,13 @@ Klok voor YM3812</text>
 <attribute name="NAME" x="80.01" y="96.7486" size="1.778" layer="95"/>
 <attribute name="VALUE" x="80.01" y="94.488" size="1.778" layer="96"/>
 </instance>
+<instance part="C39" gate="G$1" x="151.13" y="102.87" smashed="yes" rot="R180">
+<attribute name="NAME" x="153.924" y="104.521" size="1.778" layer="95"/>
+<attribute name="VALUE" x="153.924" y="101.981" size="1.778" layer="96"/>
+</instance>
+<instance part="GND42" gate="1" x="151.13" y="93.98" smashed="yes">
+<attribute name="VALUE" x="151.13" y="93.726" size="1.778" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -13692,6 +13704,8 @@ Klok voor YM3812</text>
 <wire x1="137.16" y1="107.95" x2="151.13" y2="107.95" width="0.1524" layer="91"/>
 <wire x1="151.13" y1="107.95" x2="151.13" y2="114.3" width="0.1524" layer="91"/>
 <label x="151.13" y="113.03" size="1.778" layer="95"/>
+<pinref part="C39" gate="G$1" pin="2"/>
+<junction x="151.13" y="107.95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -13700,6 +13714,11 @@ Klok voor YM3812</text>
 <wire x1="111.76" y1="92.71" x2="102.87" y2="92.71" width="0.1524" layer="91"/>
 <wire x1="102.87" y1="92.71" x2="102.87" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="GND39" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C39" gate="G$1" pin="1"/>
+<wire x1="151.13" y1="100.33" x2="151.13" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="GND42" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$22" class="0">
@@ -13788,12 +13807,12 @@ MIDI aanlsuiting via optocoupler.</text>
 <attribute name="VALUE" x="133.35" y="100.33" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="C36" gate="G$1" x="60.96" y="72.39" smashed="yes">
-<attribute name="NAME" x="62.484" y="72.771" size="1.778" layer="95"/>
-<attribute name="VALUE" x="62.484" y="67.691" size="1.778" layer="96"/>
+<attribute name="NAME" x="63.754" y="71.501" size="1.778" layer="95"/>
+<attribute name="VALUE" x="63.754" y="68.961" size="1.778" layer="96"/>
 </instance>
 <instance part="C37" gate="G$1" x="168.91" y="83.82" smashed="yes" rot="R180">
-<attribute name="NAME" x="171.704" y="82.931" size="1.778" layer="95"/>
-<attribute name="VALUE" x="171.704" y="85.471" size="1.778" layer="96"/>
+<attribute name="NAME" x="171.704" y="85.471" size="1.778" layer="95"/>
+<attribute name="VALUE" x="171.704" y="82.931" size="1.778" layer="96"/>
 </instance>
 <instance part="GND38" gate="1" x="60.96" y="60.96" smashed="yes">
 <attribute name="VALUE" x="60.96" y="60.706" size="1.778" layer="96" align="top-center"/>
@@ -13805,6 +13824,16 @@ MIDI aanlsuiting via optocoupler.</text>
 <instance part="R5" gate="G$1" x="176.53" y="100.33" smashed="yes" rot="R270">
 <attribute name="NAME" x="177.8" y="100.5586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="177.8" y="98.298" size="1.778" layer="96"/>
+</instance>
+<instance part="C40" gate="G$1" x="203.2" y="100.33" smashed="yes" rot="R180">
+<attribute name="NAME" x="205.994" y="101.981" size="1.778" layer="95"/>
+<attribute name="VALUE" x="205.994" y="99.441" size="1.778" layer="96"/>
+</instance>
+<instance part="GND40" gate="1" x="168.91" y="72.39" smashed="yes">
+<attribute name="VALUE" x="168.91" y="72.136" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="GND41" gate="1" x="203.2" y="91.44" smashed="yes">
+<attribute name="VALUE" x="203.2" y="91.186" size="1.778" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -13866,7 +13895,12 @@ MIDI aanlsuiting via optocoupler.</text>
 <wire x1="156.21" y1="81.28" x2="168.91" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="168.91" y1="81.28" x2="168.91" y2="74.93" width="0.1524" layer="91"/>
 <junction x="168.91" y="81.28"/>
-<label x="168.91" y="74.93" size="1.778" layer="95"/>
+<pinref part="GND40" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C40" gate="G$1" pin="1"/>
+<wire x1="203.2" y1="97.79" x2="203.2" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="GND41" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -13874,23 +13908,27 @@ MIDI aanlsuiting via optocoupler.</text>
 <pinref part="Q1" gate="G$1" pin="VCC"/>
 <wire x1="152.4" y1="96.52" x2="154.94" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="96.52" x2="154.94" y2="107.95" width="0.1524" layer="91"/>
+<label x="208.28" y="107.95" size="1.778" layer="95"/>
 <wire x1="154.94" y1="107.95" x2="176.53" y2="107.95" width="0.1524" layer="91"/>
+<wire x1="176.53" y1="107.95" x2="203.2" y2="107.95" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="203.2" y1="107.95" x2="210.82" y2="107.95" width="0.1524" layer="91"/>
 <wire x1="176.53" y1="105.41" x2="176.53" y2="107.95" width="0.1524" layer="91"/>
 <junction x="176.53" y="107.95"/>
-<label x="187.96" y="107.95" size="1.778" layer="95"/>
-<wire x1="176.53" y1="107.95" x2="190.5" y2="107.95" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="C40" gate="G$1" pin="2"/>
+<wire x1="203.2" y1="105.41" x2="203.2" y2="107.95" width="0.1524" layer="91"/>
+<junction x="203.2" y="107.95"/>
 </segment>
 </net>
 <net name="USART-RX" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="VO"/>
 <wire x1="152.4" y1="91.44" x2="176.53" y2="91.44" width="0.1524" layer="91"/>
+<label x="177.8" y="91.44" size="1.778" layer="95"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="176.53" y1="91.44" x2="190.5" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="176.53" y1="95.25" x2="176.53" y2="91.44" width="0.1524" layer="91"/>
 <junction x="176.53" y="91.44"/>
-<label x="177.8" y="91.44" size="1.778" layer="95"/>
-<wire x1="176.53" y1="91.44" x2="190.5" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$21" class="0">

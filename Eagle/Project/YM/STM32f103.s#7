@@ -11719,11 +11719,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="143.764" y="62.611" size="1.778" layer="96"/>
 </instance>
 <instance part="R1" gate="G$1" x="86.36" y="36.83" smashed="yes" rot="R90">
-<attribute name="NAME" x="84.8614" y="33.02" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="89.662" y="33.02" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="89.9414" y="39.37" size="1.778" layer="95"/>
+<attribute name="VALUE" x="89.662" y="33.02" size="1.778" layer="96"/>
 </instance>
 <instance part="S1" gate="1" x="99.06" y="22.86" smashed="yes" rot="R180">
-<attribute name="NAME" x="105.41" y="25.4" size="1.778" layer="95" rot="R270"/>
+<attribute name="NAME" x="105.41" y="25.4" size="1.778" layer="95"/>
 <attribute name="VALUE" x="102.87" y="19.685" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="C8" gate="G$1" x="86.36" y="21.59" smashed="yes">

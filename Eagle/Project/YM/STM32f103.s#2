@@ -12704,11 +12704,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/6N136.pdf"&gt
 <wire x1="163.83" y1="124.46" x2="163.83" y2="120.65" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="5"/>
-<wire x1="222.25" y1="118.11" x2="201.93" y2="118.11" width="0.1524" layer="91"/>
-<label x="201.93" y="118.11" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="C15" gate="G$1" pin="2"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 </segment>
@@ -12725,6 +12720,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/6N136.pdf"&gt
 <pinref part="IC1" gate="G$1" pin="GND"/>
 <wire x1="78.74" y1="68.58" x2="73.66" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="6"/>
+<wire x1="222.25" y1="115.57" x2="201.93" y2="115.57" width="0.1524" layer="91"/>
+<label x="201.93" y="115.57" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="YM-CS1" class="0">

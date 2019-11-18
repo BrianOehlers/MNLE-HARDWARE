@@ -15212,7 +15212,7 @@ Klok voor YM3812</text>
 <label x="187.96" y="64.77" size="1.778" layer="95"/>
 </segment>
 </bus>
-<bus name="I/OBUS:3.3V,5V,GND,IO1,IO2,IO3,IO4,IO5,IO6,IO7,IO8">
+<bus name="I/OBUS:3.3V,5V,GND,IO1,IO2,IO3,IO4,IO5,IO6,IO7,IO8,USART-TX-M4">
 <segment>
 <wire x1="53.34" y1="62.23" x2="53.34" y2="29.21" width="0.762" layer="92"/>
 <label x="57.15" y="45.72" size="1.778" layer="95"/>
@@ -15818,6 +15818,12 @@ Klok voor YM3812</text>
 <wire x1="135.89" y1="88.9" x2="116.84" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="88.9" x2="115.57" y2="90.17" width="0.1524" layer="91"/>
 <label x="119.38" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X2" gate="G$1" pin="4"/>
+<wire x1="33.02" y1="35.56" x2="52.07" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="52.07" y1="35.56" x2="53.34" y2="36.83" width="0.1524" layer="91"/>
+<label x="34.29" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USART-RX-M4" class="0">

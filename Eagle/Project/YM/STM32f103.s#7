@@ -15389,14 +15389,6 @@ Klok voor YM3812</text>
 <label x="34.29" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="IO8" class="0">
-<segment>
-<wire x1="33.02" y1="35.56" x2="52.07" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="52.07" y1="35.56" x2="53.34" y2="36.83" width="0.1524" layer="91"/>
-<pinref part="X2" gate="G$1" pin="4"/>
-<label x="34.29" y="35.56" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="YM2-OUTPUT" class="0">
 <segment>
 <wire x1="135.89" y1="106.68" x2="116.84" y2="106.68" width="0.1524" layer="91"/>

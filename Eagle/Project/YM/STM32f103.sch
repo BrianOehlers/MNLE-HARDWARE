@@ -13452,8 +13452,12 @@ include  Type MT6; con-amp-mt6.lbr&lt;p&gt;
 <pinref part="IC3" gate="A" pin="+IN"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="N$5" class="0">
 <segment>
+<wire x1="177.8" y1="109.22" x2="172.72" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="B" pin="OUT"/>
+<wire x1="177.8" y1="109.22" x2="177.8" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="116.84" x2="154.94" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="MP"/>
 <wire x1="132.08" y1="109.22" x2="140.97" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="140.97" y1="109.22" x2="140.97" y2="111.76" width="0.1524" layer="91"/>
@@ -13461,26 +13465,11 @@ include  Type MT6; con-amp-mt6.lbr&lt;p&gt;
 <pinref part="C14" gate="G$1" pin="1"/>
 <wire x1="149.86" y1="99.06" x2="149.86" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="B" pin="-IN"/>
-<wire x1="149.86" y1="111.76" x2="157.48" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="111.76" x2="154.94" y2="111.76" width="0.1524" layer="91"/>
 <junction x="149.86" y="111.76"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="RB"/>
-<wire x1="132.08" y1="106.68" x2="140.97" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="140.97" y1="106.68" x2="153.67" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="153.67" y1="106.68" x2="153.67" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="153.67" y1="101.6" x2="177.8" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="101.6" x2="177.8" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="109.22" x2="172.72" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="140.97" y1="99.06" x2="140.97" y2="106.68" width="0.1524" layer="91"/>
-<junction x="140.97" y="106.68"/>
-<pinref part="IC3" gate="B" pin="OUT"/>
-<pinref part="IC3" gate="B" pin="+IN"/>
-<wire x1="153.67" y1="106.68" x2="157.48" y2="106.68" width="0.1524" layer="91"/>
-<junction x="153.67" y="106.68"/>
+<wire x1="154.94" y1="111.76" x2="157.48" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="116.84" x2="154.94" y2="111.76" width="0.1524" layer="91"/>
+<junction x="154.94" y="111.76"/>
 </segment>
 </net>
 <net name="DAC-OUT-0" class="0">
@@ -13610,6 +13599,17 @@ include  Type MT6; con-amp-mt6.lbr&lt;p&gt;
 <wire x1="115.57" y1="86.36" x2="115.57" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="LOAD"/>
 <wire x1="115.57" y1="104.14" x2="116.84" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="RB"/>
+<wire x1="132.08" y1="106.68" x2="140.97" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="C13" gate="G$1" pin="1"/>
+<wire x1="140.97" y1="99.06" x2="140.97" y2="106.68" width="0.1524" layer="91"/>
+<junction x="140.97" y="106.68"/>
+<wire x1="140.97" y1="106.68" x2="157.48" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="B" pin="+IN"/>
 </segment>
 </net>
 </nets>
@@ -13778,8 +13778,12 @@ include  Type MT6; con-amp-mt6.lbr&lt;p&gt;
 <pinref part="IC6" gate="A" pin="+IN"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="N$8" class="0">
 <segment>
+<wire x1="177.8" y1="109.22" x2="171.45" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="IC6" gate="B" pin="OUT"/>
+<wire x1="177.8" y1="109.22" x2="177.8" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="116.84" x2="153.67" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="G$1" pin="MP"/>
 <wire x1="132.08" y1="109.22" x2="140.97" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="140.97" y1="109.22" x2="140.97" y2="111.76" width="0.1524" layer="91"/>
@@ -13787,26 +13791,11 @@ include  Type MT6; con-amp-mt6.lbr&lt;p&gt;
 <pinref part="C19" gate="G$1" pin="1"/>
 <wire x1="149.86" y1="99.06" x2="149.86" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="IC6" gate="B" pin="-IN"/>
-<wire x1="149.86" y1="111.76" x2="156.21" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="111.76" x2="153.67" y2="111.76" width="0.1524" layer="91"/>
 <junction x="149.86" y="111.76"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="IC5" gate="G$1" pin="RB"/>
-<wire x1="132.08" y1="106.68" x2="140.97" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="140.97" y1="106.68" x2="153.67" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="153.67" y1="106.68" x2="153.67" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="153.67" y1="101.6" x2="177.8" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="101.6" x2="177.8" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="109.22" x2="171.45" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="C18" gate="G$1" pin="1"/>
-<wire x1="140.97" y1="99.06" x2="140.97" y2="106.68" width="0.1524" layer="91"/>
-<junction x="140.97" y="106.68"/>
-<pinref part="IC6" gate="B" pin="OUT"/>
-<pinref part="IC6" gate="B" pin="+IN"/>
-<wire x1="153.67" y1="106.68" x2="156.21" y2="106.68" width="0.1524" layer="91"/>
-<junction x="153.67" y="106.68"/>
+<wire x1="153.67" y1="111.76" x2="156.21" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="153.67" y1="116.84" x2="153.67" y2="111.76" width="0.1524" layer="91"/>
+<junction x="153.67" y="111.76"/>
 </segment>
 </net>
 <net name="YM-A0" class="0">
@@ -13944,6 +13933,17 @@ include  Type MT6; con-amp-mt6.lbr&lt;p&gt;
 <wire x1="115.57" y1="86.36" x2="115.57" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="G$1" pin="LOAD"/>
 <wire x1="115.57" y1="104.14" x2="116.84" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="IC5" gate="G$1" pin="RB"/>
+<wire x1="132.08" y1="106.68" x2="140.97" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="C18" gate="G$1" pin="1"/>
+<wire x1="140.97" y1="99.06" x2="140.97" y2="106.68" width="0.1524" layer="91"/>
+<junction x="140.97" y="106.68"/>
+<wire x1="140.97" y1="106.68" x2="156.21" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="IC6" gate="B" pin="+IN"/>
 </segment>
 </net>
 </nets>
@@ -14112,8 +14112,12 @@ include  Type MT6; con-amp-mt6.lbr&lt;p&gt;
 <pinref part="IC9" gate="A" pin="+IN"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="N$11" class="0">
 <segment>
+<wire x1="177.8" y1="109.22" x2="171.45" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="IC9" gate="B" pin="OUT"/>
+<wire x1="177.8" y1="109.22" x2="177.8" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="116.84" x2="153.67" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="IC8" gate="G$1" pin="MP"/>
 <wire x1="132.08" y1="109.22" x2="140.97" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="140.97" y1="109.22" x2="140.97" y2="111.76" width="0.1524" layer="91"/>
@@ -14121,26 +14125,11 @@ include  Type MT6; con-amp-mt6.lbr&lt;p&gt;
 <pinref part="C24" gate="G$1" pin="1"/>
 <wire x1="149.86" y1="99.06" x2="149.86" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="IC9" gate="B" pin="-IN"/>
-<wire x1="149.86" y1="111.76" x2="156.21" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="111.76" x2="153.67" y2="111.76" width="0.1524" layer="91"/>
 <junction x="149.86" y="111.76"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="IC8" gate="G$1" pin="RB"/>
-<wire x1="132.08" y1="106.68" x2="140.97" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="140.97" y1="106.68" x2="153.67" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="153.67" y1="106.68" x2="153.67" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="153.67" y1="101.6" x2="177.8" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="101.6" x2="177.8" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="109.22" x2="171.45" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="C23" gate="G$1" pin="1"/>
-<wire x1="140.97" y1="99.06" x2="140.97" y2="106.68" width="0.1524" layer="91"/>
-<junction x="140.97" y="106.68"/>
-<pinref part="IC9" gate="B" pin="OUT"/>
-<pinref part="IC9" gate="B" pin="+IN"/>
-<wire x1="153.67" y1="106.68" x2="156.21" y2="106.68" width="0.1524" layer="91"/>
-<junction x="153.67" y="106.68"/>
+<wire x1="153.67" y1="111.76" x2="156.21" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="153.67" y1="116.84" x2="153.67" y2="111.76" width="0.1524" layer="91"/>
+<junction x="153.67" y="111.76"/>
 </segment>
 </net>
 <net name="YM-A0" class="0">
@@ -14278,6 +14267,17 @@ include  Type MT6; con-amp-mt6.lbr&lt;p&gt;
 <wire x1="115.57" y1="86.36" x2="115.57" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="IC8" gate="G$1" pin="LOAD"/>
 <wire x1="115.57" y1="104.14" x2="116.84" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="IC8" gate="G$1" pin="RB"/>
+<wire x1="132.08" y1="106.68" x2="140.97" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="C23" gate="G$1" pin="1"/>
+<wire x1="140.97" y1="99.06" x2="140.97" y2="106.68" width="0.1524" layer="91"/>
+<junction x="140.97" y="106.68"/>
+<wire x1="140.97" y1="106.68" x2="156.21" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="IC9" gate="B" pin="+IN"/>
 </segment>
 </net>
 </nets>
@@ -14446,8 +14446,12 @@ include  Type MT6; con-amp-mt6.lbr&lt;p&gt;
 <pinref part="IC12" gate="A" pin="+IN"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="N$14" class="0">
 <segment>
+<wire x1="177.8" y1="109.22" x2="171.45" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="IC12" gate="B" pin="OUT"/>
+<wire x1="177.8" y1="109.22" x2="177.8" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="116.84" x2="153.67" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="IC11" gate="G$1" pin="MP"/>
 <wire x1="132.08" y1="109.22" x2="140.97" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="140.97" y1="109.22" x2="140.97" y2="111.76" width="0.1524" layer="91"/>
@@ -14455,26 +14459,11 @@ include  Type MT6; con-amp-mt6.lbr&lt;p&gt;
 <pinref part="C29" gate="G$1" pin="1"/>
 <wire x1="149.86" y1="99.06" x2="149.86" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="IC12" gate="B" pin="-IN"/>
-<wire x1="149.86" y1="111.76" x2="156.21" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="111.76" x2="153.67" y2="111.76" width="0.1524" layer="91"/>
 <junction x="149.86" y="111.76"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="IC11" gate="G$1" pin="RB"/>
-<wire x1="132.08" y1="106.68" x2="140.97" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="140.97" y1="106.68" x2="153.67" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="153.67" y1="106.68" x2="153.67" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="153.67" y1="101.6" x2="177.8" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="101.6" x2="177.8" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="109.22" x2="171.45" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="C28" gate="G$1" pin="1"/>
-<wire x1="140.97" y1="99.06" x2="140.97" y2="106.68" width="0.1524" layer="91"/>
-<junction x="140.97" y="106.68"/>
-<pinref part="IC12" gate="B" pin="OUT"/>
-<pinref part="IC12" gate="B" pin="+IN"/>
-<wire x1="153.67" y1="106.68" x2="156.21" y2="106.68" width="0.1524" layer="91"/>
-<junction x="153.67" y="106.68"/>
+<wire x1="153.67" y1="111.76" x2="156.21" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="153.67" y1="116.84" x2="153.67" y2="111.76" width="0.1524" layer="91"/>
+<junction x="153.67" y="111.76"/>
 </segment>
 </net>
 <net name="YM-A0" class="0">
@@ -14612,6 +14601,17 @@ include  Type MT6; con-amp-mt6.lbr&lt;p&gt;
 <wire x1="115.57" y1="86.36" x2="115.57" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="IC11" gate="G$1" pin="LOAD"/>
 <wire x1="115.57" y1="104.14" x2="116.84" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="IC11" gate="G$1" pin="RB"/>
+<wire x1="132.08" y1="106.68" x2="140.97" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="C28" gate="G$1" pin="1"/>
+<wire x1="140.97" y1="99.06" x2="140.97" y2="106.68" width="0.1524" layer="91"/>
+<junction x="140.97" y="106.68"/>
+<wire x1="140.97" y1="106.68" x2="156.21" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="IC12" gate="B" pin="+IN"/>
 </segment>
 </net>
 </nets>

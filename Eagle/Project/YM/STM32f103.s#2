@@ -14923,6 +14923,10 @@ Klok voor YM3812</text>
 <label x="209.55" y="109.22" size="1.778" layer="95"/>
 <pinref part="IC14" gate="P" pin="VCC"/>
 <wire x1="175.26" y1="101.6" x2="208.28" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="C39" gate="G$1" pin="2"/>
+<wire x1="208.28" y1="93.98" x2="208.28" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="101.6" x2="208.28" y2="109.22" width="0.1524" layer="91"/>
+<junction x="208.28" y="101.6"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -15000,12 +15004,6 @@ Klok voor YM3812</text>
 <junction x="92.71" y="106.68"/>
 <pinref part="IC14" gate="A" pin="I"/>
 <wire x1="92.71" y1="106.68" x2="104.14" y2="106.68" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$28" class="0">
-<segment>
-<pinref part="C39" gate="G$1" pin="2"/>
-<wire x1="208.28" y1="93.98" x2="208.28" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -15232,7 +15230,7 @@ Klok voor YM3812</text>
 </bus>
 <bus name="LCD:5V,EXP-SPI-CLK,EXP-SPI-MISO,EXP-SPI-MOSI,GND,LCD-SPI-CS">
 <segment>
-<wire x1="139.7" y1="64.77" x2="139.7" y2="35.56" width="0.762" layer="92"/>
+<wire x1="139.7" y1="60.96" x2="139.7" y2="35.56" width="0.762" layer="92"/>
 <label x="142.24" y="46.99" size="1.778" layer="95"/>
 </segment>
 </bus>

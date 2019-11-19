@@ -6572,37 +6572,12 @@ Grid 3.5 mm&lt;p&gt;
 <text x="-22.75" y="3.75" size="1.27" layer="25">&gt;NAME</text>
 <text x="-22.75" y="1.575" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="90F-4" urn="urn:adsk.eagle:footprint:11219/1" library_version="2">
-<description>&lt;b&gt;WEIDMUELLER CLAMP CONNECTOR&lt;/b&gt;</description>
-<wire x1="-10.1" y1="-4.85" x2="10.1" y2="-4.85" width="0.2032" layer="21"/>
-<wire x1="10.1" y1="-4.85" x2="10.1" y2="6.05" width="0.2032" layer="21"/>
-<wire x1="10.1" y1="6.05" x2="-10.1" y2="6.05" width="0.2032" layer="51"/>
-<wire x1="-10.1" y1="6.05" x2="-10.1" y2="-4.85" width="0.2032" layer="21"/>
-<pad name="1" x="-5.25" y="5.25" drill="1.4224" shape="long" rot="R90"/>
-<pad name="2" x="-1.75" y="5.25" drill="1.4224" shape="long" rot="R90"/>
-<pad name="3" x="1.75" y="5.25" drill="1.4224" shape="long" rot="R90"/>
-<pad name="4" x="5.25" y="5.25" drill="1.4224" shape="long" rot="R90"/>
-<text x="-5.25" y="7" size="1.27" layer="25">&gt;NAME</text>
-<text x="-5.25" y="1.75" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-5.775" y1="-4.9" x2="-4.725" y2="-1.225" layer="21"/>
-<rectangle x1="-2.275" y1="-4.9" x2="-1.225" y2="-1.225" layer="21"/>
-<rectangle x1="1.225" y1="-4.9" x2="2.275" y2="-1.225" layer="21"/>
-<rectangle x1="4.725" y1="-4.9" x2="5.775" y2="-1.225" layer="21"/>
-<hole x="8.45" y="0.55" drill="2.3"/>
-<hole x="-8.45" y="0.55" drill="2.3"/>
-</package>
 </packages>
 <packages3d>
 <package3d name="180G-14" urn="urn:adsk.eagle:package:11378/1" type="box" library_version="2">
 <description>WEIDMUELLER CLAMP CONNECTOR</description>
 <packageinstances>
 <packageinstance name="180G-14"/>
-</packageinstances>
-</package3d>
-<package3d name="90F-4" urn="urn:adsk.eagle:package:11425/1" type="box" library_version="2">
-<description>WEIDMUELLER CLAMP CONNECTOR</description>
-<packageinstances>
-<packageinstance name="90F-4"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -6639,18 +6614,6 @@ Grid 3.5 mm&lt;p&gt;
 <pin name="13" x="-2.54" y="-15.24" visible="pin" length="short" direction="pas"/>
 <pin name="14" x="-2.54" y="-17.78" visible="pin" length="short" direction="pas"/>
 </symbol>
-<symbol name="MALE-4" urn="urn:adsk.eagle:symbol:11124/1" library_version="2">
-<text x="0" y="4.318" size="1.778" layer="95">&gt;NAME</text>
-<text x="0" y="-8.636" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="2.286" x2="1.27" y2="2.794" layer="94"/>
-<rectangle x1="-0.254" y1="-0.254" x2="1.27" y2="0.254" layer="94"/>
-<rectangle x1="-0.254" y1="-2.794" x2="1.27" y2="-2.286" layer="94"/>
-<rectangle x1="-0.254" y1="-5.334" x2="1.27" y2="-4.826" layer="94"/>
-<pin name="1" x="-2.54" y="2.54" visible="pin" length="short" direction="pas"/>
-<pin name="2" x="-2.54" y="0" visible="pin" length="short" direction="pas"/>
-<pin name="3" x="-2.54" y="-2.54" visible="pin" length="short" direction="pas"/>
-<pin name="4" x="-2.54" y="-5.08" visible="pin" length="short" direction="pas"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="180G-14" urn="urn:adsk.eagle:component:11577/2" prefix="X" uservalue="yes" library_version="2">
@@ -6678,34 +6641,6 @@ Grid 3.5 mm&lt;p&gt;
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:11378/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="90F-4" urn="urn:adsk.eagle:component:11608/2" prefix="X" uservalue="yes" library_version="2">
-<description>&lt;b&gt;WEIDMUELLER CLAMP CONNECTOR&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="MALE-4" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="90F-4">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:11425/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -12430,6 +12365,113 @@ include  Type MT6; con-amp-mt6.lbr&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="con-lstb" urn="urn:adsk.eagle:library:162">
+<description>&lt;b&gt;Pin Headers&lt;/b&gt;&lt;p&gt;
+Naming:&lt;p&gt;
+MA = male&lt;p&gt;
+# contacts - # rows&lt;p&gt;
+W = angled&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="MA04-1" urn="urn:adsk.eagle:footprint:8285/1" library_version="2">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-4.445" y1="1.27" x2="-3.175" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="1.27" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="0.635" x2="-5.08" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="1.27" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-0.635" x2="-4.445" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="-1.27" x2="-4.445" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="4.445" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="1.27" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="0.635" x2="5.08" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-0.635" x2="4.445" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="-1.27" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="1" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="4" x="3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-5.08" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-6.223" y="-0.635" size="1.27" layer="21" ratio="10">1</text>
+<text x="0.635" y="1.651" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="5.334" y="-0.635" size="1.27" layer="21" ratio="10">4</text>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
+<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="MA04-1" urn="urn:adsk.eagle:package:8337/1" type="box" library_version="2">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="MA04-1"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="MA04-1" urn="urn:adsk.eagle:symbol:8284/1" library_version="2">
+<wire x1="3.81" y1="-7.62" x2="-1.27" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.6096" layer="94"/>
+<wire x1="-1.27" y1="5.08" x2="-1.27" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-7.62" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-1.27" y1="5.08" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
+<text x="-1.27" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-1.27" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="7.62" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="3" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="4" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MA04-1" urn="urn:adsk.eagle:component:8375/2" prefix="SV" uservalue="yes" library_version="2">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="MA04-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MA04-1">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+<connect gate="1" pin="3" pad="3"/>
+<connect gate="1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8337/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="41" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -12567,7 +12609,7 @@ include  Type MT6; con-amp-mt6.lbr&lt;p&gt;
 <part name="SL2" library="con-amp-quick" library_urn="urn:adsk.eagle:library:125" deviceset="M06" device="" package3d_urn="urn:adsk.eagle:package:5960/1"/>
 <part name="SL1" library="con-amp-quick" library_urn="urn:adsk.eagle:library:125" deviceset="M16" device="" package3d_urn="urn:adsk.eagle:package:5969/1"/>
 <part name="SV1" library="con-amp-mt" library_urn="urn:adsk.eagle:library:123" deviceset="S06P" device="" package3d_urn="urn:adsk.eagle:package:5792/1"/>
-<part name="X3" library="con-weidmueller-sl35" library_urn="urn:adsk.eagle:library:199" deviceset="90F-4" device="" package3d_urn="urn:adsk.eagle:package:11425/1"/>
+<part name="SV2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA04-1" device="" package3d_urn="urn:adsk.eagle:package:8337/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -15150,9 +15192,9 @@ Klok voor YM3812</text>
 <attribute name="NAME" x="115.062" y="35.306" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="115.824" y="31.877" size="1.778" layer="96"/>
 </instance>
-<instance part="X3" gate="G$1" x="219.71" y="45.72" smashed="yes">
-<attribute name="NAME" x="219.71" y="50.038" size="1.778" layer="95"/>
-<attribute name="VALUE" x="219.71" y="37.084" size="1.778" layer="96"/>
+<instance part="SV2" gate="1" x="226.06" y="43.18" smashed="yes" rot="R180">
+<attribute name="VALUE" x="227.33" y="53.34" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="227.33" y="37.338" size="1.778" layer="95" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -15464,10 +15506,10 @@ Klok voor YM3812</text>
 <label x="34.29" y="30.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X3" gate="G$1" pin="1"/>
-<wire x1="217.17" y1="48.26" x2="198.12" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="48.26" x2="198.12" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="48.26" x2="196.85" y2="49.53" width="0.1524" layer="91"/>
 <label x="199.39" y="48.26" size="1.778" layer="95"/>
+<pinref part="SV2" gate="1" pin="1"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -15556,10 +15598,10 @@ Klok voor YM3812</text>
 <label x="121.92" y="34.29" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X3" gate="G$1" pin="4"/>
-<wire x1="217.17" y1="40.64" x2="198.12" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="40.64" x2="198.12" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="40.64" x2="196.85" y2="41.91" width="0.1524" layer="91"/>
 <label x="199.39" y="40.64" size="1.778" layer="95"/>
+<pinref part="SV2" gate="1" pin="4"/>
 </segment>
 </net>
 <net name="ADC-VOL-TOT" class="0">
@@ -15842,18 +15884,18 @@ Klok voor YM3812</text>
 </net>
 <net name="SW-DIO" class="0">
 <segment>
-<pinref part="X3" gate="G$1" pin="2"/>
-<wire x1="217.17" y1="45.72" x2="198.12" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="45.72" x2="198.12" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="45.72" x2="196.85" y2="46.99" width="0.1524" layer="91"/>
 <label x="199.39" y="45.72" size="1.778" layer="95"/>
+<pinref part="SV2" gate="1" pin="2"/>
 </segment>
 </net>
 <net name="SW-CLK" class="0">
 <segment>
-<pinref part="X3" gate="G$1" pin="3"/>
-<wire x1="217.17" y1="43.18" x2="198.12" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="43.18" x2="198.12" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="43.18" x2="196.85" y2="44.45" width="0.1524" layer="91"/>
 <label x="199.39" y="43.18" size="1.778" layer="95"/>
+<pinref part="SV2" gate="1" pin="3"/>
 </segment>
 </net>
 </nets>

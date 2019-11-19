@@ -13055,7 +13055,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/6N136.pdf"&gt
 <segment>
 <label x="135.89" y="127" size="1.778" layer="95"/>
 <pinref part="U1" gate="PORTA_L" pin="PA3"/>
-<wire x1="133.35" y1="127" x2="153.67" y2="127" width="0.1524" layer="91"/>
+<wire x1="133.35" y1="127" x2="152.4" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USART-RX-M4" class="0">

@@ -4693,41 +4693,31 @@ W = angled&lt;p&gt;
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="default">
-<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+<designrules name="jlcpcb2layer">
+<description language="en">&lt;b&gt;JLCPCB Design Rules by Jaap de Dood&lt;/b&gt;
 &lt;p&gt;
-Die Standard-Design-Rules sind so gewählt, dass sie für 
-die meisten Anwendungen passen. Sollte ihre Platine 
-besondere Anforderungen haben, treffen Sie die erforderlichen
-Einstellungen hier und speichern die Design Rules unter 
-einem neuen Namen ab.</description>
-<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
-&lt;p&gt;
-The default Design Rules have been set to cover
-a wide range of applications. Your particular design
-may have different requirements, so please make the
-necessary adjustments and save your customized
-design rules under a new name.</description>
+Please make sure your boards conform to these design rules.
+&lt;/p&gt;</description>
 <param name="layerSetup" value="(1*16)"/>
-<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
-<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="6mil"/>
-<param name="mdWirePad" value="6mil"/>
-<param name="mdWireVia" value="6mil"/>
-<param name="mdPadPad" value="6mil"/>
-<param name="mdPadVia" value="6mil"/>
-<param name="mdViaVia" value="6mil"/>
-<param name="mdSmdPad" value="6mil"/>
-<param name="mdSmdVia" value="6mil"/>
-<param name="mdSmdSmd" value="6mil"/>
-<param name="mdViaViaSameLayer" value="6mil"/>
+<param name="mtCopper" value="0.035559375mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.035559375mm"/>
+<param name="mtIsolate" value="1.6mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm"/>
+<param name="mdWireWire" value="5mil"/>
+<param name="mdWirePad" value="5mil"/>
+<param name="mdWireVia" value="5mil"/>
+<param name="mdPadPad" value="5mil"/>
+<param name="mdPadVia" value="5mil"/>
+<param name="mdViaVia" value="5mil"/>
+<param name="mdSmdPad" value="5mil"/>
+<param name="mdSmdVia" value="5mil"/>
+<param name="mdSmdSmd" value="5mil"/>
+<param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="40mil"/>
+<param name="mdCopperDimension" value="8mil"/>
 <param name="mdDrill" value="6mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="6mil"/>
-<param name="msDrill" value="0.35mm"/>
-<param name="msMicroVia" value="9.99mm"/>
+<param name="msWidth" value="5mil"/>
+<param name="msDrill" value="12mil"/>
+<param name="msMicroVia" value="12mil"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
 <param name="rvPadInner" value="0.25"/>
@@ -4736,19 +4726,19 @@ design rules under a new name.</description>
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMinPadTop" value="5mil"/>
 <param name="rlMaxPadTop" value="20mil"/>
-<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMinPadInner" value="5mil"/>
 <param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMinPadBottom" value="5mil"/>
 <param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMinViaOuter" value="3mil"/>
 <param name="rlMaxViaOuter" value="20mil"/>
-<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMinViaInner" value="3mil"/>
 <param name="rlMaxViaInner" value="20mil"/>
-<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMinMicroViaOuter" value="3mil"/>
 <param name="rlMaxMicroViaOuter" value="20mil"/>
-<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMinMicroViaInner" value="3mil"/>
 <param name="rlMaxMicroViaInner" value="20mil"/>
 <param name="psTop" value="-1"/>
 <param name="psBottom" value="-1"/>
@@ -4757,8 +4747,8 @@ design rules under a new name.</description>
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="4mil"/>
-<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinStopFrame" value="2.5mil"/>
+<param name="mlMaxStopFrame" value="2.5mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
 <param name="mlViaStopLimit" value="0mil"/>
@@ -4886,7 +4876,7 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="73" x="-70.358" y="101.6" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="-70.358" y="101.6" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="" x="30.48" y="59.182" smashed="yes" rot="R180" grouprefs="ASD">
+<element name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="20pF" x="30.48" y="59.182" smashed="yes" rot="R180" grouprefs="ASD">
 <attribute name="NAME" x="29.083" y="60.325" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="73" x="-66.04" y="170.942" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="-66.04" y="170.942" size="1.778" layer="27" rot="R180" display="off"/>
@@ -4971,7 +4961,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="19.05" y="76.708" size="0.6096" layer="25" ratio="20" align="bottom-center"/>
 </element>
 <element name="C33" library="Clean-Kong" package="C0603" value="100nF" x="21.59" y="33.782" smashed="yes" grouprefs="ASD">
-<attribute name="NAME" x="23.495" y="34.925" size="1.27" layer="25"/>
+<attribute name="NAME" x="19.177" y="34.925" size="1.27" layer="25"/>
 </element>
 <element name="C34" library="Clean-Kong" package="C0603" value="1p5F" x="36.322" y="44.45" smashed="yes" rot="R180" grouprefs="ASD">
 <attribute name="NAME" x="36.957" y="43.815" size="1.27" layer="25" rot="R180"/>
@@ -5002,8 +4992,8 @@ design rules under a new name.</description>
 <element name="C8" library="+HU-Lib" package="0603-SMD" value="100N" x="13.97" y="64.77" smashed="yes" grouprefs="ASD">
 <attribute name="NAME" x="13.97" y="65.532" size="0.6096" layer="25" ratio="20" align="bottom-center"/>
 </element>
-<element name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="" x="30.48" y="67.564" smashed="yes" rot="R180" grouprefs="ASD">
-<attribute name="NAME" x="31.115" y="66.929" size="1.27" layer="25" rot="R180"/>
+<element name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="20pF" x="30.48" y="67.564" smashed="yes" rot="R180" grouprefs="ASD">
+<attribute name="NAME" x="29.083" y="68.453" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="73" x="-69.85" y="179.324" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="-69.85" y="179.324" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="31.115" y="69.469" size="1.27" layer="27" rot="R180"/>
@@ -5034,20 +5024,20 @@ design rules under a new name.</description>
 <attribute name="NAME" x="24.638" y="83.6168" size="1.27" layer="25"/>
 </element>
 <element name="IC2" library="YM" package="YM3014B" value="YM3014B" x="84.074" y="35.052" smashed="yes" rot="R270" grouprefs="ASD">
-<attribute name="NAME" x="79.248" y="30.353" size="1.016" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="80.899" y="40.386" size="1.016" layer="25" ratio="10"/>
 </element>
 <element name="IC3" library="linear" library_urn="urn:adsk.eagle:library:262" package="DIL08" package3d_urn="urn:adsk.eagle:package:16409/2" value="LM358N" x="84.074" y="22.098" smashed="yes" rot="R270" grouprefs="ASD">
-<attribute name="NAME" x="79.121" y="17.653" size="1.016" layer="25" rot="R270"/>
+<attribute name="NAME" x="80.899" y="27.559" size="1.016" layer="25"/>
 <attribute name="POPULARITY" value="7" x="-8.636" y="-74.422" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="IC4" library="YM" package="YM3812" value="YM3812" x="101.346" y="58.674" smashed="yes" rot="R270" grouprefs="ASD">
 <attribute name="NAME" x="94.742" y="74.041" size="1.778" layer="25" ratio="10"/>
 </element>
 <element name="IC5" library="YM" package="YM3014B" value="YM3014B" x="106.934" y="35.052" smashed="yes" rot="R270" grouprefs="ASD">
-<attribute name="NAME" x="102.108" y="30.353" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="103.505" y="40.386" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="IC6" library="linear" library_urn="urn:adsk.eagle:library:262" package="DIL08" package3d_urn="urn:adsk.eagle:package:16409/2" value="LM358N" x="106.934" y="22.098" smashed="yes" rot="R270" grouprefs="ASD">
-<attribute name="NAME" x="101.981" y="17.653" size="1.016" layer="25" rot="R270"/>
+<attribute name="NAME" x="103.759" y="27.559" size="1.016" layer="25"/>
 <attribute name="POPULARITY" value="7" x="14.224" y="-84.582" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="IC7" library="YM" package="YM3812" value="YM3812" x="124.206" y="58.674" smashed="yes" rot="R270" grouprefs="ASD">
@@ -5057,7 +5047,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="125.603" y="40.386" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="IC9" library="linear" library_urn="urn:adsk.eagle:library:262" package="DIL08" package3d_urn="urn:adsk.eagle:package:16409/2" value="LM358N" x="129.794" y="22.098" smashed="yes" rot="R270" grouprefs="ASD">
-<attribute name="NAME" x="124.841" y="17.653" size="1.016" layer="25" rot="R270"/>
+<attribute name="NAME" x="126.619" y="27.559" size="1.016" layer="25"/>
 <attribute name="POPULARITY" value="7" x="25.654" y="4.318" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="J1" library="LDO" package="USB-B" value="" x="7.62" y="78.74" smashed="yes" rot="R270" grouprefs="ASD">
@@ -5138,7 +5128,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="43.18" y="67.564" size="1.778" layer="25"/>
 </element>
 <element name="X1" library="IQD-Frequency-Products" library_urn="urn:adsk.eagle:library:90" package="HC49-4-HSMX" package3d_urn="urn:adsk.eagle:package:3355/1" value="CRYSTALS-NOGND-4-HSMX" x="35.56" y="63.5" smashed="yes" rot="R270" grouprefs="ASD">
-<attribute name="NAME" x="38.227" y="69.215" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="33.655" y="70.485" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="1" x="-68.58" y="11.43" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="X2" library="con-weidmueller-sl35" library_urn="urn:adsk.eagle:library:199" package="180G-14" package3d_urn="urn:adsk.eagle:package:11378/1" value="" x="26.67" y="27.94" smashed="yes" rot="R180" grouprefs="ASD">
@@ -5192,7 +5182,7 @@ design rules under a new name.</description>
 <element name="SL1" library="con-amp-quick" library_urn="urn:adsk.eagle:library:125" package="16P" package3d_urn="urn:adsk.eagle:package:5969/1" value="" x="102.87" y="7.366" smashed="yes" rot="R180" grouprefs="ASD">
 <attribute name="MF" value="" x="102.87" y="7.366" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="102.87" y="7.366" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="122.936" y="4.4196" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="83.058" y="10.0584" size="1.27" layer="25" ratio="10"/>
 <attribute name="OC_FARNELL" value="unknown" x="102.87" y="7.366" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="102.87" y="7.366" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULARITY" value="8" x="102.87" y="7.366" size="1.778" layer="27" rot="R180" display="off"/>
@@ -5201,7 +5191,7 @@ design rules under a new name.</description>
 <element name="SV1" library="con-amp-mt" library_urn="urn:adsk.eagle:library:123" package="S06P" package3d_urn="urn:adsk.eagle:package:5792/1" value="" x="60.96" y="11.43" smashed="yes" rot="R90" grouprefs="ASD">
 <attribute name="MF" value="" x="60.96" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="60.96" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="56.769" y="1.6272" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="56.7452" y="21.717" size="1.27" layer="25" ratio="10"/>
 <attribute name="OC_FARNELL" value="unknown" x="60.96" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="60.96" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POPULARITY" value="0" x="60.96" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
@@ -5210,7 +5200,7 @@ design rules under a new name.</description>
 <element name="SV2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA04-1" package3d_urn="urn:adsk.eagle:package:8337/1" value="" x="63.5" y="80.264" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="63.5" y="80.264" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="63.5" y="80.264" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="68.58" y="78.613" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="60.706" y="83.693" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="OC_FARNELL" value="unknown" x="63.5" y="80.264" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="63.5" y="80.264" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULARITY" value="41" x="63.5" y="80.264" size="1.778" layer="27" rot="R180" display="off"/>
@@ -5373,7 +5363,6 @@ design rules under a new name.</description>
 <contactref element="IC3" pad="4"/>
 <contactref element="C15" pad="2"/>
 <contactref element="C11" pad="2"/>
-<contactref element="C12" pad="2"/>
 <contactref element="IC1" pad="GND"/>
 <contactref element="C19" pad="2"/>
 <contactref element="IC5" pad="GND"/>
@@ -5440,7 +5429,6 @@ design rules under a new name.</description>
 <wire x1="23.5712" y1="80.01" x2="21.59" y2="80.01" width="0.1524" layer="1"/>
 <via x="21.59" y="80.01" extent="1-16" drill="0.35"/>
 <wire x1="19.9" y1="80.01" x2="21.59" y2="80.01" width="0.1524" layer="1"/>
-<wire x1="29.769" y1="80.01" x2="29.769" y2="80.264" width="0.1524" layer="1"/>
 <wire x1="29.769" y1="80.01" x2="29.769" y2="82.499" width="0.1524" layer="1"/>
 <wire x1="29.769" y1="82.499" x2="29.718" y2="82.55" width="0.1524" layer="1"/>
 <via x="29.718" y="82.55" extent="1-16" drill="0.35"/>
@@ -5455,12 +5443,12 @@ design rules under a new name.</description>
 <wire x1="37.338" y1="49.022" x2="37.299" y2="49.061" width="0.2032" layer="1"/>
 <wire x1="37.299" y1="50.546" x2="37.299" y2="49.061" width="0.2032" layer="1"/>
 <via x="37.338" y="49.022" extent="1-16" drill="0.35"/>
-<wire x1="22.44" y1="33.782" x2="22.44" y2="35.14" width="0.2032" layer="1"/>
-<wire x1="22.44" y1="35.14" x2="22.606" y2="35.306" width="0.2032" layer="1"/>
-<via x="22.606" y="35.306" extent="1-16" drill="0.35"/>
+<wire x1="22.44" y1="33.782" x2="22.44" y2="34.886" width="0.2032" layer="1"/>
+<wire x1="22.86" y1="35.306" x2="23.114" y2="35.306" width="0.2032" layer="1"/>
+<wire x1="22.86" y1="35.306" x2="22.44" y2="34.886" width="0.2032" layer="1"/>
+<via x="23.114" y="35.306" extent="1-16" drill="0.35"/>
 <wire x1="37.172" y1="44.45" x2="38.354" y2="44.45" width="0.2032" layer="1"/>
 <via x="38.354" y="44.45" extent="1-16" drill="0.35"/>
-<wire x1="162.56" y1="25.908" x2="162.14" y2="25.908" width="0.2032" layer="1"/>
 <wire x1="47.55" y1="56.53" x2="47.55" y2="55.17" width="0.2032" layer="1"/>
 <wire x1="47.0972" y1="54.7172" x2="47.0972" y2="54.33113125" width="0.2032" layer="1"/>
 <via x="47.0972" y="54.33113125" extent="1-16" drill="0.35"/>
@@ -5477,9 +5465,6 @@ design rules under a new name.</description>
 <wire x1="48.9178" y1="69.3524" x2="48.9178" y2="69.85" width="0.2032" layer="1"/>
 <via x="48.9178" y="69.85" extent="1-16" drill="0.35"/>
 <contactref element="SV2" pad="4"/>
-<wire x1="75.604" y1="39.116" x2="75.438" y2="38.95" width="0.2032" layer="1"/>
-<wire x1="75.438" y1="38.95" x2="75.438" y2="37.084" width="0.2032" layer="1"/>
-<via x="75.438" y="37.084" extent="1-16" drill="0.35"/>
 <wire x1="93.56" y1="25.908" x2="93.56" y2="27.012" width="0.2032" layer="1"/>
 <wire x1="93.98" y1="27.432" x2="93.56" y2="27.012" width="0.2032" layer="1"/>
 <via x="93.98" y="27.432" extent="1-16" drill="0.35"/>
@@ -5539,6 +5524,10 @@ design rules under a new name.</description>
 <via x="114.3" y="33.782" extent="1-16" drill="0.35"/>
 <wire x1="143.676" y1="38.862" x2="142.494" y2="38.862" width="0.2032" layer="1"/>
 <via x="142.494" y="38.862" extent="1-16" drill="0.35"/>
+<contactref element="C12" pad="2"/>
+<wire x1="75.604" y1="39.116" x2="75.604" y2="38.266" width="0.1524" layer="1"/>
+<wire x1="75.604" y1="38.266" x2="75.438" y2="38.1" width="0.1524" layer="1"/>
+<via x="75.438" y="38.1" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="IO7">
 <contactref element="X2" pad="5"/>
@@ -5735,7 +5724,7 @@ design rules under a new name.</description>
 <wire x1="63.0936" y1="59.8067" x2="63.0936" y2="31.9024" width="0.2032" layer="1"/>
 <wire x1="63.0936" y1="31.9024" x2="63.5" y2="31.496" width="0.2032" layer="1"/>
 </signal>
-<signal name="EXP3-INTA">
+<signal name="OPEN!">
 <contactref element="U1" pad="44"/>
 <contactref element="PL1" pad="5"/>
 <wire x1="56.5" y1="63.98" x2="59.4232" y2="63.98" width="0.2032" layer="1"/>
@@ -5750,7 +5739,7 @@ design rules under a new name.</description>
 <wire x1="71.2658" y1="25.4508" x2="70.6628" y2="25.4508" width="0.2032" layer="1"/>
 <wire x1="63.4492" y1="32.3037" x2="63.9013" y2="31.8516" width="0.2032" layer="1"/>
 </signal>
-<signal name="EXP3-INTB">
+<signal name="OPEN">
 <contactref element="U1" pad="45"/>
 <contactref element="PL1" pad="6"/>
 <wire x1="56.5" y1="64.48" x2="59.4261" y2="64.48" width="0.2032" layer="1"/>
@@ -6174,10 +6163,10 @@ design rules under a new name.</description>
 <wire x1="47.93" y1="68.93283125" x2="47.93" y2="71.044" width="0.2032" layer="1"/>
 <wire x1="47.93" y1="71.044" x2="52.4764" y2="75.5904" width="0.2032" layer="1"/>
 <wire x1="52.4764" y1="75.5904" x2="63.0936" y2="75.5904" width="0.2032" layer="1"/>
-<wire x1="90.0684" y1="61.3664" x2="100.6856" y2="61.3664" width="0.2032" layer="1"/>
+<wire x1="90.0684" y1="61.3664" x2="102.4636" y2="61.3664" width="0.2032" layer="1"/>
 <wire x1="86.106" y1="57.404" x2="90.0684" y2="61.3664" width="0.2032" layer="1"/>
-<wire x1="100.6856" y1="61.3664" x2="104.648" y2="57.404" width="0.2032" layer="1"/>
-<wire x1="104.648" y1="57.404" x2="108.966" y2="57.404" width="0.2032" layer="1"/>
+<wire x1="102.4636" y1="61.3664" x2="106.426" y2="57.404" width="0.2032" layer="1"/>
+<wire x1="106.426" y1="57.404" x2="108.966" y2="57.404" width="0.2032" layer="1"/>
 <wire x1="108.966" y1="57.404" x2="112.776" y2="61.214" width="0.2032" layer="1"/>
 <wire x1="112.776" y1="61.214" x2="124.46" y2="61.214" width="0.2032" layer="1"/>
 <wire x1="124.46" y1="61.214" x2="128.27" y2="57.404" width="0.2032" layer="1"/>
@@ -6483,9 +6472,9 @@ design rules under a new name.</description>
 <wire x1="81.026" y1="55.88" x2="87.122" y2="55.88" width="0.2032" layer="1"/>
 <wire x1="91.186" y1="59.944" x2="93.726" y2="59.944" width="0.2032" layer="1"/>
 <wire x1="87.122" y1="55.88" x2="91.186" y2="59.944" width="0.2032" layer="1"/>
-<wire x1="93.726" y1="59.944" x2="101.092" y2="59.944" width="0.2032" layer="1"/>
-<wire x1="101.092" y1="59.944" x2="105.0036" y2="56.0324" width="0.2032" layer="1"/>
-<wire x1="105.0036" y1="56.0324" x2="110.1344" y2="56.0324" width="0.2032" layer="1"/>
+<wire x1="93.726" y1="59.944" x2="101.854" y2="59.944" width="0.2032" layer="1"/>
+<wire x1="101.854" y1="59.944" x2="105.7656" y2="56.0324" width="0.2032" layer="1"/>
+<wire x1="105.7656" y1="56.0324" x2="110.1344" y2="56.0324" width="0.2032" layer="1"/>
 <wire x1="110.1344" y1="56.0324" x2="114.046" y2="59.944" width="0.2032" layer="1"/>
 <wire x1="114.046" y1="59.944" x2="116.586" y2="59.944" width="0.2032" layer="1"/>
 <wire x1="116.586" y1="59.944" x2="124.2111" y2="59.944" width="0.2032" layer="1"/>
@@ -6991,8 +6980,9 @@ design rules under a new name.</description>
 <wire x1="149.098" y1="31.242" x2="148.844" y2="31.242" width="0.2032" layer="16"/>
 <wire x1="157.48" y1="44.196" x2="154.5336" y2="41.2496" width="0.2032" layer="16"/>
 <via x="139.3162" y="16.51" extent="1-16" drill="0.35"/>
-<wire x1="148.844" y1="31.242" x2="141.6812" y2="24.0792" width="0.2032" layer="1"/>
-<wire x1="141.6812" y1="24.0792" x2="141.6812" y2="21.0414" width="0.2032" layer="1"/>
+<wire x1="148.844" y1="31.242" x2="143.51" y2="31.242" width="0.2032" layer="1"/>
+<wire x1="143.51" y1="31.242" x2="141.6812" y2="29.4132" width="0.2032" layer="1"/>
+<wire x1="141.6812" y1="29.4132" x2="141.6812" y2="21.0414" width="0.2032" layer="1"/>
 <wire x1="139.3162" y1="18.6764" x2="139.3162" y2="16.51" width="0.2032" layer="1"/>
 <wire x1="141.6812" y1="21.0414" x2="139.3162" y2="18.6764" width="0.2032" layer="1"/>
 <wire x1="139.3162" y1="16.51" x2="129.286" y2="6.4798" width="0.2032" layer="16"/>

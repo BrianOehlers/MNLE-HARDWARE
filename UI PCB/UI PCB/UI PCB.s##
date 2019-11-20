@@ -9097,13 +9097,10 @@ Grid 3.5 mm&lt;p&gt;
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$1" library="2514-6002UB" deviceset="2514-6002UB" device=""/>
 <part name="X10" library="con-weidmueller-sl35" library_urn="urn:adsk.eagle:library:199" deviceset="180G-15" device="" package3d_urn="urn:adsk.eagle:package:11369/1"/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
-<part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
+<description>IO EXP 1</description>
 <plain>
 </plain>
 <instances>
@@ -9132,18 +9129,12 @@ Grid 3.5 mm&lt;p&gt;
 <instance part="GND5" gate="1" x="38.1" y="22.86" smashed="yes">
 <attribute name="VALUE" x="35.56" y="20.32" size="1.778" layer="96"/>
 </instance>
-<instance part="C3" gate="G$1" x="2.54" y="63.5" smashed="yes">
-<attribute name="NAME" x="4.064" y="63.881" size="1.778" layer="95"/>
-<attribute name="VALUE" x="4.064" y="58.801" size="1.778" layer="96"/>
-</instance>
-<instance part="GND17" gate="1" x="2.54" y="53.34" smashed="yes">
-<attribute name="VALUE" x="0" y="50.8" size="1.778" layer="96"/>
-</instance>
 </instances>
 <busses>
 <bus name="STM32-HEADER:3V3,5V,A0,A1,CS1,CS2,INTA1,INTA2,INTB1,INTB2,MISO,MOSI,RESET,SCK">
 <segment>
 <wire x1="43.18" y1="58.42" x2="43.18" y2="43.18" width="0.762" layer="92"/>
+<label x="43.18" y="40.64" size="1.778" layer="95" rot="R90"/>
 </segment>
 </bus>
 </busses>
@@ -9211,11 +9202,6 @@ Grid 3.5 mm&lt;p&gt;
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="38.1" y1="27.94" x2="38.1" y2="25.4" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="GND17" gate="1" pin="GND"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="2.54" y1="55.88" x2="2.54" y2="58.42" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="3V3" class="0">
 <segment>
@@ -9228,10 +9214,6 @@ Grid 3.5 mm&lt;p&gt;
 <junction x="30.48" y="68.58"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="12.7" y1="68.58" x2="12.7" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="2.54" y1="66.04" x2="2.54" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="68.58" x2="12.7" y2="68.58" width="0.1524" layer="91"/>
-<junction x="12.7" y="68.58"/>
 </segment>
 </net>
 <net name="INTA1" class="0">
@@ -9368,6 +9350,7 @@ Grid 3.5 mm&lt;p&gt;
 </nets>
 </sheet>
 <sheet>
+<description>IO EXP 2</description>
 <plain>
 </plain>
 <instances>
@@ -9396,23 +9379,18 @@ Grid 3.5 mm&lt;p&gt;
 <instance part="GND6" gate="1" x="-20.32" y="66.04" smashed="yes">
 <attribute name="VALUE" x="-22.86" y="63.5" size="1.778" layer="96"/>
 </instance>
-<instance part="C4" gate="G$1" x="-53.34" y="106.68" smashed="yes">
-<attribute name="NAME" x="-51.816" y="107.061" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-51.816" y="101.981" size="1.778" layer="96"/>
-</instance>
-<instance part="GND16" gate="1" x="-53.34" y="96.52" smashed="yes">
-<attribute name="VALUE" x="-55.88" y="93.98" size="1.778" layer="96"/>
-</instance>
 </instances>
 <busses>
 <bus name="STM32-HEADER:3V3,5V,A0,A1,CS1,CS2,INTA1,INTA2,INTB1,INTB2,MISO,MOSI,RESET,SCK">
 <segment>
 <wire x1="-15.24" y1="101.6" x2="-15.24" y2="86.36" width="0.762" layer="92"/>
+<label x="-15.24" y="86.36" size="1.778" layer="95" rot="R90"/>
 </segment>
 </bus>
 <bus name="SPARE-OUTPUTS-IC2:3V3,5V,GND,GPA0,GPA1,GPA2,GPA3,GPA4,GPA5,GPA6,GPA7,GPB4,GPB5,GPB6,GPB7">
 <segment>
 <wire x1="45.72" y1="111.76" x2="45.72" y2="71.12" width="0.762" layer="92"/>
+<label x="45.72" y="111.76" size="1.778" layer="95"/>
 </segment>
 </bus>
 </busses>
@@ -9463,11 +9441,6 @@ Grid 3.5 mm&lt;p&gt;
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="-20.32" y1="71.12" x2="-20.32" y2="68.58" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="C4" gate="G$1" pin="2"/>
-<pinref part="GND16" gate="1" pin="GND"/>
-<wire x1="-53.34" y1="101.6" x2="-53.34" y2="99.06" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="3V3" class="0">
 <segment>
@@ -9485,10 +9458,6 @@ Grid 3.5 mm&lt;p&gt;
 <pinref part="IC2" gate="G$1" pin="A0"/>
 <wire x1="-5.08" y1="81.28" x2="-35.56" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="-35.56" y1="81.28" x2="-35.56" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="-45.72" y1="111.76" x2="-53.34" y2="111.76" width="0.1524" layer="91"/>
-<junction x="-45.72" y="111.76"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="-53.34" y1="109.22" x2="-53.34" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -9645,6 +9614,7 @@ Grid 3.5 mm&lt;p&gt;
 </nets>
 </sheet>
 <sheet>
+<description>CS button cons</description>
 <plain>
 </plain>
 <instances>
@@ -9791,6 +9761,7 @@ Grid 3.5 mm&lt;p&gt;
 </nets>
 </sheet>
 <sheet>
+<description>ROT ENC cons</description>
 <plain>
 </plain>
 <instances>
@@ -10060,6 +10031,7 @@ Grid 3.5 mm&lt;p&gt;
 </nets>
 </sheet>
 <sheet>
+<description>STM32 con</description>
 <plain>
 </plain>
 <instances>
@@ -10158,6 +10130,7 @@ Grid 3.5 mm&lt;p&gt;
 </nets>
 </sheet>
 <sheet>
+<description>SPARE GPIO header</description>
 <plain>
 </plain>
 <instances>
@@ -10170,6 +10143,7 @@ Grid 3.5 mm&lt;p&gt;
 <bus name="SPARE-OUTPUTS-IC2:3V3,5V,GND,GPA0,GPA1,GPA2,GPA3,GPA4,GPA5,GPA6,GPA7,GPB4,GPB5,GPB6,GPB7">
 <segment>
 <wire x1="25.4" y1="63.5" x2="25.4" y2="27.94" width="0.762" layer="92"/>
+<label x="25.4" y="63.5" size="1.778" layer="95"/>
 </segment>
 </bus>
 </busses>

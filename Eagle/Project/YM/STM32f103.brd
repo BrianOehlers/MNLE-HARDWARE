@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -166,6 +166,7 @@
 <hole x="172.212" y="2.032" drill="3.2004"/>
 <hole x="2.032" y="88.392" drill="3.2004"/>
 <hole x="2.032" y="2.032" drill="3.2004"/>
+<text x="76.708" y="84.836" size="1.778" layer="25">SynthModule V1.0 - Brian Oehlers, Ruben van Renswoude en Julian Schotborgh</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">

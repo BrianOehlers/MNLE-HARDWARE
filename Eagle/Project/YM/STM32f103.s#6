@@ -12682,6 +12682,26 @@ are also provided.&lt;/p&gt;
 <wire x1="57.15" y1="30.48" x2="57.15" y2="29.21" width="0.1524" layer="91"/>
 <junction x="57.15" y="29.21"/>
 </segment>
+<segment>
+<pinref part="U1" gate="PORTC_H" pin="PC9"/>
+<wire x1="204.47" y1="106.68" x2="186.69" y2="106.68" width="0.1524" layer="91"/>
+<label x="186.69" y="106.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="PORTA_H" pin="PA12"/>
+<wire x1="204.47" y1="124.46" x2="186.69" y2="124.46" width="0.1524" layer="91"/>
+<label x="186.69" y="124.46" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="PORTA_H" pin="PA11"/>
+<wire x1="204.47" y1="127" x2="186.69" y2="127" width="0.1524" layer="91"/>
+<label x="186.69" y="127" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="PORTA_H" pin="PA8"/>
+<wire x1="204.47" y1="134.62" x2="186.69" y2="134.62" width="0.1524" layer="91"/>
+<label x="186.69" y="134.62" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SW-DIO" class="0">
 <segment>

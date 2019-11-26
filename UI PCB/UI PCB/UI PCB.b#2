@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -158,20 +158,14 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="67.29" y2="0" width="0" layer="20"/>
-<wire x1="67.29" y1="0" x2="67.29" y2="50.47" width="0" layer="20"/>
-<wire x1="67.29" y1="50.47" x2="0" y2="50.47" width="0" layer="20"/>
-<wire x1="0" y1="50.47" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="67.31" y2="0" width="0" layer="20"/>
+<wire x1="67.31" y1="0" x2="67.31" y2="50.165" width="0" layer="20"/>
+<wire x1="67.31" y1="50.165" x2="0" y2="50.165" width="0" layer="20"/>
+<wire x1="0" y1="50.165" x2="0" y2="0" width="0" layer="20"/>
 <hole x="9.652" y="36.068" drill="3.2"/>
 <hole x="49.53" y="36.068" drill="3.2"/>
 <hole x="49.53" y="8.128" drill="3.2"/>
 <text x="8.636" y="49.022" size="1.016" layer="25">Synth Module UI V1.0 - Brian Oehlers, Ruben van Renswoude, Julian Schotborgh</text>
-<dimension x1="43.18" y1="36.83" x2="43.18" y2="34.29" x3="69.215" y3="35.56" textsize="1.778" layer="1"/>
-<dimension x1="43.18" y1="34.29" x2="43.18" y2="31.75" x3="73.025" y3="33.02" textsize="1.778" layer="1"/>
-<dimension x1="43.18" y1="29.21" x2="43.18" y2="31.75" x3="76.835" y3="30.48" textsize="1.778" layer="1"/>
-<dimension x1="43.18" y1="29.21" x2="43.18" y2="26.67" x3="82.55" y3="27.94" textsize="1.778" layer="1"/>
-<dimension x1="43.18" y1="3.81" x2="43.18" y2="36.83" x3="92.71" y3="20.32" textsize="1.778" layer="1"/>
-<dimension x1="43.18" y1="24.13" x2="43.18" y2="26.67" x3="79.375" y3="25.4" textsize="1.778" layer="1"/>
 <dimension x1="67.29" y1="50.47" x2="0" y2="50.47" x3="33.645" y3="54.61" textsize="1.778" layer="1"/>
 </plain>
 <libraries>

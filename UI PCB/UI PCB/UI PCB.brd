@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.003125" unitdist="mic" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -162,9 +162,9 @@
 <wire x1="67" y1="0" x2="67" y2="50" width="0" layer="20"/>
 <wire x1="67" y1="50" x2="0" y2="50" width="0" layer="20"/>
 <wire x1="0" y1="50" x2="0" y2="0" width="0" layer="20"/>
-<hole x="9.652" y="36.068" drill="3.2"/>
-<hole x="49.53" y="36.068" drill="3.2"/>
-<hole x="49.53" y="8.128" drill="3.2"/>
+<hole x="10" y="36" drill="3.2"/>
+<hole x="50" y="36" drill="3.2"/>
+<hole x="49" y="8" drill="3.2"/>
 <text x="8.5877875" y="48.7326625" size="1.016" layer="25">Synth Module UI V1.0 - Brian Oehlers, Ruben van Renswoude, Julian Schotborgh</text>
 <dimension x1="66.98" y1="50.67" x2="0" y2="50.47" x3="33.4776375" y3="54.70998125" textsize="1.778" layer="1"/>
 </plain>

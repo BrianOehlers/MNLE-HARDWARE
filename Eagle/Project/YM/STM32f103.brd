@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -158,13 +158,13 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="174.625" y2="0" width="0" layer="20" grouprefs="ASD"/>
-<wire x1="174.625" y1="0" x2="174.625" y2="86.36" width="0" layer="20" grouprefs="ASD"/>
-<wire x1="174.625" y1="86.36" x2="0" y2="86.36" width="0" layer="20" grouprefs="ASD"/>
-<wire x1="0" y1="86.36" x2="0" y2="0" width="0" layer="20"/>
-<hole x="172.212" y="84.582" drill="3.2004"/>
+<wire x1="0" y1="0" x2="174" y2="0" width="0" layer="20" grouprefs="ASD"/>
+<wire x1="174" y1="0" x2="174" y2="87" width="0" layer="20" grouprefs="ASD"/>
+<wire x1="174" y1="87" x2="0" y2="87" width="0" layer="20" grouprefs="ASD"/>
+<wire x1="0" y1="87" x2="0" y2="0" width="0" layer="20"/>
+<hole x="172" y="85" drill="3.2004"/>
 <hole x="172.212" y="2.032" drill="3.2004"/>
-<hole x="2.032" y="84.582" drill="3.2004"/>
+<hole x="2" y="85" drill="3.2004"/>
 <hole x="2.032" y="2.032" drill="3.2004"/>
 <text x="77.343" y="82.931" size="1.778" layer="25">SynthModule V1.0 - Brian Oehlers, Ruben van Renswoude en Julian Schotborgh</text>
 <dimension x1="0" y1="86.538" x2="174.224" y2="86.538" x3="87.112" y3="94.996" textsize="1.778" layer="1"/>

@@ -5786,7 +5786,6 @@ Please make sure your boards conform to these design rules.
 <wire x1="65.405" y1="12.360025" x2="60.198" y2="17.567025" width="0.2032" layer="1"/>
 <contactref element="SL9" pad="3"/>
 <wire x1="65.405" y1="7.112" x2="65.405" y2="9.652" width="0.2032" layer="1"/>
-<wire x1="65.405" y1="9.652" x2="65.405" y2="9.525" width="0.2032" layer="1"/>
 <wire x1="65.405" y1="9.652" x2="65.405" y2="12.360025" width="0.2032" layer="1"/>
 </signal>
 <signal name="EXP-SPI-CLK">

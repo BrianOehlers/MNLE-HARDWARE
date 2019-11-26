@@ -226,7 +226,7 @@
                 {
                     "board_outline": false,
                     "config": {
-                        "description": "Vias",
+                        "description": "Via",
                         "file_function": "Other"
                     },
                     "filename_format": "%PREFIX/%FF.gbr",
@@ -234,7 +234,7 @@
                         18
                     ],
                     "milling": false,
-                    "name": "Vias",
+                    "name": "Via",
                     "polarity": "positive",
                     "type": "gerber_layer"
                 }

@@ -12646,47 +12646,47 @@ are also provided.&lt;/p&gt;
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC4" library="YM" deviceset="YM3812" device="" value="YM3812"/>
 <part name="IC5" library="YM" deviceset="YM3014B" device="" value="YM3014B"/>
-<part name="C18" library="+HU-Lib" deviceset="10UF" device=""/>
-<part name="C19" library="+HU-Lib" deviceset="10UF" device=""/>
+<part name="C18" library="+HU-Lib" deviceset="10UF" device="" value="10u"/>
+<part name="C19" library="+HU-Lib" deviceset="10UF" device="" value="10u"/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC6" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="LM358" device="N" package3d_urn="urn:adsk.eagle:package:16409/2" value="LM358N"/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C20" library="+HU-Lib" deviceset="100N" device=""/>
+<part name="C20" library="+HU-Lib" deviceset="100N" device="" value="100n"/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C16" library="+HU-Lib" deviceset="100N" device=""/>
+<part name="C16" library="+HU-Lib" deviceset="100N" device="" value="100n"/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C17" library="+HU-Lib" deviceset="100N" device=""/>
+<part name="C17" library="+HU-Lib" deviceset="100N" device="" value="100n"/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC7" library="YM" deviceset="YM3812" device="" value="YM3812"/>
 <part name="IC8" library="YM" deviceset="YM3014B" device="" value="YM3014B"/>
-<part name="C23" library="+HU-Lib" deviceset="10UF" device=""/>
-<part name="C24" library="+HU-Lib" deviceset="10UF" device=""/>
+<part name="C23" library="+HU-Lib" deviceset="10UF" device="" value="10u"/>
+<part name="C24" library="+HU-Lib" deviceset="10UF" device="" value="10u"/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC9" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="LM358" device="N" package3d_urn="urn:adsk.eagle:package:16409/2" value="LM358N"/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C25" library="+HU-Lib" deviceset="100N" device=""/>
+<part name="C25" library="+HU-Lib" deviceset="100N" device="" value="100n"/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C21" library="+HU-Lib" deviceset="100N" device=""/>
+<part name="C21" library="+HU-Lib" deviceset="100N" device="" value="100n"/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C22" library="+HU-Lib" deviceset="100N" device=""/>
+<part name="C22" library="+HU-Lib" deviceset="100N" device="" value="100n"/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC10" library="YM" deviceset="YM3812" device="" value="YM3812"/>
 <part name="IC11" library="YM" deviceset="YM3014B" device="" value="YM3014B"/>
-<part name="C28" library="+HU-Lib" deviceset="10UF" device=""/>
-<part name="C29" library="+HU-Lib" deviceset="10UF" device=""/>
+<part name="C28" library="+HU-Lib" deviceset="10UF" device="" value="10u"/>
+<part name="C29" library="+HU-Lib" deviceset="10UF" device="" value="10u"/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC12" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="LM358" device="N" package3d_urn="urn:adsk.eagle:package:16409/2" value="LM358N"/>
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C30" library="+HU-Lib" deviceset="100N" device=""/>
+<part name="C30" library="+HU-Lib" deviceset="100N" device="" value="100n"/>
 <part name="GND33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C26" library="+HU-Lib" deviceset="100N" device=""/>
+<part name="C26" library="+HU-Lib" deviceset="100N" device="" value="100n"/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C27" library="+HU-Lib" deviceset="100N" device=""/>
+<part name="C27" library="+HU-Lib" deviceset="100N" device="" value="100n"/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U1" library="stm32" deviceset="STM32F10XRXT6" device=""/>
@@ -12701,29 +12701,29 @@ are also provided.&lt;/p&gt;
 <part name="J10" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA03-156" device="" package3d_urn="urn:adsk.eagle:package:8081563/1"/>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="DIN5" device="" package3d_urn="urn:adsk.eagle:package:38294/1"/>
 <part name="D1" library="BAT20JFILM" deviceset="BAT20JFILM" device=""/>
-<part name="C33" library="Clean-Kong" deviceset="C-EU" device="C0603" value="100nF"/>
-<part name="C34" library="Clean-Kong" deviceset="C-EU" device="C0603" value="1p5F"/>
+<part name="C33" library="Clean-Kong" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="C34" library="Clean-Kong" deviceset="C-EU" device="C0603" value="1p5"/>
 <part name="GND35" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="R2" library="+HU-Lib" deviceset="1K" device="" value="91R"/>
 <part name="R3" library="+HU-Lib" deviceset="1K" device="" value="4k7"/>
-<part name="C35" library="Clean-Kong" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C35" library="Clean-Kong" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="GND36" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND37" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="FRAME6" library="frames" deviceset="A4L-LOC" device=""/>
-<part name="C31" library="+HU-Lib" deviceset="0.47UF" device=""/>
-<part name="C32" library="+HU-Lib" deviceset="22UF" device=""/>
+<part name="C31" library="+HU-Lib" deviceset="0.47UF" device="" value="0.47u"/>
+<part name="C32" library="+HU-Lib" deviceset="22UF" device="" value="22u"/>
 <part name="GND34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J1" library="LDO" deviceset="CON-USB-B" device=""/>
 <part name="FRAME8" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="IC14" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*04" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="ALS">
 <attribute name="SPICEPREFIX" value="I"/>
 </part>
-<part name="C38" library="Clean-Kong" deviceset="C-EU" device="C0603" value="4.7nF"/>
+<part name="C38" library="Clean-Kong" deviceset="C-EU" device="C0603" value="4.7n"/>
 <part name="CRYSTAL2" library="ABLS-3.579545MHZ-17-B-4-Y-T" deviceset="ABLS-3.579545MHZ-17-B-4-Y-T" device=""/>
 <part name="GND40" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R6" library="+HU-Lib" deviceset="1K" device="" value="470R"/>
 <part name="R7" library="+HU-Lib" deviceset="1K" device="" value="470R"/>
-<part name="C39" library="Clean-Kong" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C39" library="Clean-Kong" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="GND41" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="IC15" library="6N136" deviceset="6N136" device=""/>
 <part name="SV1" library="con-amp-mt" library_urn="urn:adsk.eagle:library:123" deviceset="S06P" device="" package3d_urn="urn:adsk.eagle:package:5792/1"/>
@@ -14147,11 +14147,11 @@ are also provided.&lt;/p&gt;
 <attribute name="VALUE" x="176.784" y="138.811" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="GND26" gate="1" x="175.26" y="135.89" smashed="yes"/>
-<instance part="C21" gate="G$1" x="59.69" y="101.6" smashed="yes">
-<attribute name="NAME" x="61.214" y="104.521" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="61.214" y="99.441" size="1.778" layer="96" font="vector"/>
+<instance part="C21" gate="G$1" x="58.42" y="101.6" smashed="yes">
+<attribute name="NAME" x="59.944" y="104.521" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="59.944" y="99.441" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND20" gate="1" x="59.69" y="96.52" smashed="yes"/>
+<instance part="GND20" gate="1" x="58.42" y="95.25" smashed="yes"/>
 <instance part="C22" gate="G$1" x="113.03" y="120.65" smashed="yes">
 <attribute name="NAME" x="114.554" y="123.571" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="114.554" y="118.491" size="1.778" layer="96" font="vector"/>
@@ -14204,6 +14204,7 @@ are also provided.&lt;/p&gt;
 <segment>
 <pinref part="C21" gate="G$1" pin="2"/>
 <pinref part="GND20" gate="1" pin="GND"/>
+<wire x1="58.42" y1="97.79" x2="58.42" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C22" gate="G$1" pin="2"/>
@@ -14228,8 +14229,8 @@ are also provided.&lt;/p&gt;
 <junction x="76.2" y="96.52"/>
 <wire x1="76.2" y1="96.52" x2="76.2" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="C21" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="109.22" x2="59.69" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="59.69" y1="109.22" x2="59.69" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="109.22" x2="58.42" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="109.22" x2="58.42" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC8" gate="G$1" pin="VDD"/>

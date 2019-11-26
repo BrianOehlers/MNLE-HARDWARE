@@ -12522,7 +12522,7 @@ are also provided.&lt;/p&gt;
 <label x="166.37" y="105.41" size="1.778" layer="95"/>
 </segment>
 </bus>
-<bus name="EXP-BUS:A,B,EXP1-INTA,EXP1-INTB,EXP3-INTA,EXP3-INTB,EXP-INT,EXP-RST,EXP-SPI-CLK,EXP-SPI-MISO,EXP-SPI-MOSI,EXP-SPI-NSS,EXP-SPI-NSS0,EXP-SPI-NSS1,OPEN!,OPEN">
+<bus name="EXP-BUS:A,B,EXP1-INT-A,EXP1-INTB,EXP3-INTA,EXP3-INTB,EXP-INT,EXP-RST,EXP-SPI-CLK,EXP-SPI-MISO,EXP-SPI-MOSI,EXP-SPI-NSS,EXP-SPI-NSS0,EXP-SPI-NSS1,OPEN!,OPEN">
 <segment>
 <wire x1="180.34" y1="151.13" x2="180.34" y2="107.95" width="0.762" layer="92"/>
 <label x="168.91" y="130.81" size="1.778" layer="95"/>
@@ -12804,20 +12804,12 @@ are also provided.&lt;/p&gt;
 <label x="186.69" y="134.62" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="EXP1-INTA" class="0">
+<net name="EXP1-INT-A" class="0">
 <segment>
 <pinref part="U1" gate="PORTA_H" pin="PA9"/>
 <wire x1="204.47" y1="132.08" x2="181.61" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="181.61" y1="132.08" x2="180.34" y2="133.35" width="0.1524" layer="91"/>
 <label x="186.69" y="132.08" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="EXP1-INTB" class="0">
-<segment>
-<pinref part="U1" gate="PORTA_H" pin="PA10"/>
-<wire x1="204.47" y1="129.54" x2="181.61" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="181.61" y1="129.54" x2="180.34" y2="130.81" width="0.1524" layer="91"/>
-<label x="186.69" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="B" class="0">
@@ -13063,7 +13055,7 @@ are also provided.&lt;/p&gt;
 <label x="186.69" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SPI2-2-INT-B" class="0">
+<net name="EXP2-INT-B" class="0">
 <segment>
 <label x="135.89" y="127" size="1.778" layer="95"/>
 <pinref part="U1" gate="PORTA_L" pin="PA3"/>
@@ -13078,14 +13070,14 @@ are also provided.&lt;/p&gt;
 <label x="186.69" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SPI2-LCD-CS" class="0">
+<net name="LCD-SPI-CS" class="0">
 <segment>
 <pinref part="U1" gate="PORTB_H" pin="PB12"/>
 <wire x1="133.35" y1="149.86" x2="153.67" y2="149.86" width="0.1524" layer="91"/>
 <label x="134.62" y="149.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SPI2-2-INT-A" class="0">
+<net name="EXP2-INT-A" class="0">
 <segment>
 <label x="135.89" y="129.54" size="1.778" layer="95"/>
 <pinref part="U1" gate="PORTA_L" pin="PA2"/>
@@ -13097,6 +13089,14 @@ are also provided.&lt;/p&gt;
 <pinref part="U1" gate="PORTB_H" pin="PB11"/>
 <wire x1="133.35" y1="152.4" x2="153.67" y2="152.4" width="0.1524" layer="91"/>
 <label x="134.62" y="152.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="EXP1-INT-B" class="0">
+<segment>
+<pinref part="U1" gate="PORTA_H" pin="PA10"/>
+<wire x1="204.47" y1="129.54" x2="181.61" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="181.61" y1="129.54" x2="180.34" y2="130.81" width="0.1524" layer="91"/>
+<label x="186.69" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -15031,41 +15031,41 @@ Klok voor YM3812</text>
 <nets>
 <net name="EXP-SPI-CLK" class="0">
 <segment>
-<pinref part="SV1" gate="-1" pin="S"/>
-<wire x1="120.65" y1="59.69" x2="138.43" y2="59.69" width="0.1524" layer="91"/>
-<wire x1="138.43" y1="59.69" x2="139.7" y2="60.96" width="0.1524" layer="91"/>
-<label x="121.92" y="59.69" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="SV3" gate="A" pin="14"/>
 <label x="68.58" y="129.54" size="1.778" layer="95"/>
 <wire x1="67.31" y1="129.54" x2="85.09" y2="129.54" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="EXP-SPI-MISO" class="0">
 <segment>
 <pinref part="SV1" gate="-2" pin="S"/>
 <wire x1="120.65" y1="54.61" x2="138.43" y2="54.61" width="0.1524" layer="91"/>
 <wire x1="138.43" y1="54.61" x2="139.7" y2="55.88" width="0.1524" layer="91"/>
 <label x="121.92" y="54.61" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="EXP-SPI-MISO" class="0">
 <segment>
 <pinref part="SV3" gate="A" pin="13"/>
 <label x="13.97" y="129.54" size="1.778" layer="95"/>
 <wire x1="31.75" y1="129.54" x2="13.97" y2="129.54" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="EXP-SPI-MOSI" class="0">
 <segment>
 <pinref part="SV1" gate="-3" pin="S"/>
 <wire x1="120.65" y1="49.53" x2="138.43" y2="49.53" width="0.1524" layer="91"/>
 <wire x1="138.43" y1="49.53" x2="139.7" y2="50.8" width="0.1524" layer="91"/>
 <label x="121.92" y="49.53" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="EXP-SPI-MOSI" class="0">
 <segment>
 <pinref part="SV3" gate="A" pin="12"/>
 <label x="68.58" y="132.08" size="1.778" layer="95"/>
 <wire x1="67.31" y1="132.08" x2="85.09" y2="132.08" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="-4" pin="S"/>
+<wire x1="120.65" y1="44.45" x2="138.43" y2="44.45" width="0.1524" layer="91"/>
+<wire x1="138.43" y1="44.45" x2="139.7" y2="45.72" width="0.1524" layer="91"/>
+<label x="121.92" y="44.45" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -15480,14 +15480,6 @@ Klok voor YM3812</text>
 <pinref part="SV5" gate="G$1" pin="11"/>
 </segment>
 </net>
-<net name="LCD-SPI-CS" class="0">
-<segment>
-<pinref part="SV1" gate="-4" pin="S"/>
-<wire x1="120.65" y1="44.45" x2="138.43" y2="44.45" width="0.1524" layer="91"/>
-<wire x1="138.43" y1="44.45" x2="139.7" y2="45.72" width="0.1524" layer="91"/>
-<label x="121.92" y="44.45" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="SW-DIO" class="0">
 <segment>
 <wire x1="218.44" y1="45.72" x2="198.12" y2="45.72" width="0.1524" layer="91"/>
@@ -15511,18 +15503,11 @@ Klok voor YM3812</text>
 <wire x1="31.75" y1="144.78" x2="13.97" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="EXP1-INTA" class="0">
+<net name="EXP1-INT-A" class="0">
 <segment>
-<pinref part="SV3" gate="A" pin="5"/>
-<label x="13.97" y="139.7" size="1.778" layer="95"/>
-<wire x1="31.75" y1="139.7" x2="13.97" y2="139.7" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="A" class="0">
-<segment>
-<pinref part="SV3" gate="A" pin="7"/>
-<label x="13.97" y="137.16" size="1.778" layer="95"/>
-<wire x1="31.75" y1="137.16" x2="13.97" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="SV3" gate="A" pin="8"/>
+<label x="68.58" y="137.16" size="1.778" layer="95"/>
+<wire x1="67.31" y1="137.16" x2="85.09" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EXP-RST" class="0">
@@ -15539,18 +15524,11 @@ Klok voor YM3812</text>
 <wire x1="31.75" y1="132.08" x2="13.97" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="EXP1-INTB" class="0">
+<net name="EXP2-INT-B" class="0">
 <segment>
 <pinref part="SV3" gate="A" pin="6"/>
 <label x="68.58" y="139.7" size="1.778" layer="95"/>
 <wire x1="67.31" y1="139.7" x2="85.09" y2="139.7" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="B" class="0">
-<segment>
-<pinref part="SV3" gate="A" pin="8"/>
-<label x="68.58" y="137.16" size="1.778" layer="95"/>
-<wire x1="67.31" y1="137.16" x2="85.09" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EXP-SPI-NSS1" class="0">
@@ -15566,6 +15544,28 @@ Klok voor YM3812</text>
 <label x="119.38" y="111.76" size="1.778" layer="95"/>
 <wire x1="116.84" y1="111.76" x2="115.57" y2="113.03" width="0.1524" layer="91"/>
 <pinref part="SV5" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="EXP1-INT-B" class="0">
+<segment>
+<pinref part="SV3" gate="A" pin="7"/>
+<label x="13.97" y="137.16" size="1.778" layer="95"/>
+<wire x1="31.75" y1="137.16" x2="13.97" y2="137.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EXP2-INT-A" class="0">
+<segment>
+<pinref part="SV3" gate="A" pin="5"/>
+<label x="13.97" y="139.7" size="1.778" layer="95"/>
+<wire x1="31.75" y1="139.7" x2="13.97" y2="139.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LCD-SPI-CS" class="0">
+<segment>
+<pinref part="SV1" gate="-1" pin="S"/>
+<wire x1="120.65" y1="59.69" x2="138.43" y2="59.69" width="0.1524" layer="91"/>
+<wire x1="138.43" y1="59.69" x2="139.7" y2="60.96" width="0.1524" layer="91"/>
+<label x="121.92" y="59.69" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
